@@ -49,8 +49,8 @@ export default function Hero() {
         <p className="font-mono text-2xl mb-8" style={{ color: 'var(--neon-yellow)', textShadow: '0 0 20px rgba(245,255,0,0.4)', animation: 'fadeInUp 0.6s 0.2s ease both' }}>
           @lapencadev
         </p>
-        <p className="text-lg leading-relaxed max-w-lg mb-12" style={{ color: '#9090b0', animation: 'fadeInUp 0.6s 0.3s ease both' }}>
-          De las <strong className="text-white font-medium">letras al código</strong>, sin perder el acento.<br />
+         <p className="text-lg leading-relaxed max-w-lg mb-12" style={{ color: '#9090b0', animation: 'fadeInUp 0.6s 0.3s ease both' }}>
+          De <strong className="text-white font-medium">letras a código, sin perder el acento murciano</strong> 🍋<br />
           <span style={{ color: 'var(--neon-cyan)' }}>Backend engineer</span> con Java & Spring Boot en Accenture.
           Speaker en T3chFest Madrid. Mentora en <strong className="text-white font-medium">Step4ward</strong>.
           Soprano amateur que también compila.
@@ -60,7 +60,7 @@ export default function Hero() {
             style={{ background: 'var(--neon-pink)', color: '#fff', boxShadow: '0 0 20px rgba(255,45,120,0.3)' }}
             onMouseEnter={e => { e.currentTarget.style.boxShadow = '0 0 40px rgba(255,45,120,0.6)'; e.currentTarget.style.transform = 'translateY(-2px)' }}
             onMouseLeave={e => { e.currentTarget.style.boxShadow = '0 0 20px rgba(255,45,120,0.3)'; e.currentTarget.style.transform = 'none' }}>
-            ✉ Hablemos
+            💬 Hablemos
           </a>
           <a href="https://linktr.ee/lapencadev" target="_blank" rel="noreferrer"
             className="inline-flex items-center gap-2 font-mono text-xs font-bold uppercase tracking-wider px-7 py-3.5 rounded-sm transition-all"

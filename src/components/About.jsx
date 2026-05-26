@@ -12,16 +12,16 @@ const experience = [
     period: 'JUNIO 2025 — ENERO 2026',
     role: 'Software Developer',
     company: 'New Work SE | Xing',
-    desc: 'Nuevas features en microservicios, cloud migration, reducción de deuda técnica. Monitoring con Grafana y Datadog.',
-    chips: ['Java', 'Kotlin', 'Kubernetes', 'Grafana', 'Datadog'],
+    desc: 'Backend Java 17-21. Nuevas features en microservicios de integración, cloud migration, reducción de deuda técnica. Monitoring con Grafana y Datadog.',
+    chips: ['Java Spring Boot', 'NoSQL', 'GitHub', 'Kotlin', 'Kubernetes', 'Grafana', 'Datadog', 'Docker'],
   },
   {
     period: 'SEPTIEMBRE 2022 — MAYO 2025',
     role: 'Fullstack Developer & PPO',
     company: 'Capgemini',
-    desc: 'Backend Java 8–17 + frontend Angular. Schema migrations con Flyway. Women in Tech bootcamp interno.',
-    chips: ['Java 8-17', 'Angular', 'PostgreSQL', 'Oracle', 'Flyway', 'Jenkins'],
-  },
+    desc: 'Backend Java 8–17 + Frontend Angular. Migraciones SQL con Flyway. Women in Tech bootcamp interno.',
+    chips: ['Java Spring Boot', 'Angular', 'PostgreSQL', 'Oracle', 'Flyway', 'GitLab', 'Scrum'],
+ },
 ]
 
 export default function About() {
@@ -33,7 +33,7 @@ export default function About() {
       <div ref={leftRef} className="reveal about-sticky" style={{ position: 'sticky', top: 120 }}>
         <div className="font-mono text-xs uppercase tracking-widest mb-4 flex items-center gap-3"
           style={{ color: 'var(--neon-pink)' }}>
-          01 · About
+          02 · About
           <div style={{ flex: 1, height: 1, background: 'rgba(255,45,120,0.3)' }} />
         </div>
         <h2 className="font-display font-bold leading-tight mb-8" style={{ fontSize: 'clamp(28px,3vw,42px)' }}>
@@ -54,7 +54,7 @@ export default function About() {
 
       <div ref={rightRef} className="reveal">
         <p className="text-lg leading-relaxed mb-6" style={{ color: '#9090b0' }}>
-          Empecé con <strong className="text-white font-medium">letras y lenguajes humanos</strong>, acabé migrando a <strong className="text-yellow font-medium">código y lenguajes de programación</strong>. El camino no fue fácil, tras estudiar filología inglesa en la universidad, trabajé 6 años en logística. Rompí con mi "anterior vida" en 2022 en busca de una reconversión profesional, sumergiendom en un duro bootcamp de Java pasados los 30. Me encantó y necesitaba más, así que me he graduado en el grado superior de Desarrollo de Aplicaciones Multiplataforma — y eso es exactamente lo que me hace diferente.
+          Empecé con <strong className="text-white font-medium">letras y lenguajes humanos</strong>, acabé migrando a <strong className="text-yellow font-medium">código y lenguajes de programación</strong>. El camino no fue fácil, tras estudiar filología inglesa en la universidad, trabajé 6 años en logística. Rompí con mi "anterior vida" en 2022 en busca de una reconversión profesional, sumergiéndome en un duro bootcamp de Java a los 30. Me encantó y me quedé con ganas de más a pesar de estar currando, así que me he graduado en el grado superior de Desarrollo de Aplicaciones Multiplataforma — y eso es exactamente lo que me hace diferente.
         </p>
         <p className="text-lg leading-relaxed mb-6" style={{ color: '#9090b0' }}>
           Actualmente trabajo como <span style={{ color: 'var(--neon-cyan)' }}>Software Engineer</span>, desarrollando microservicios backend con Java Spring Boot para clientes enterprise e implementando herramientas con GitHub Copilot. Empecé como fullstack Java/Angular y me he ido especializando en backend.

@@ -64,7 +64,7 @@ export default function Community() {
       <div style={{ maxWidth: 1200, margin: '0 auto' }}>
         <div ref={titleRef} className="reveal mb-16">
           <div className="font-mono text-xs uppercase tracking-widest mb-4 flex items-center gap-3" style={{ color: 'var(--neon-pink)' }}>
-            05 · Community <div style={{ flex: 1, height: 1, background: 'rgba(255,45,120,0.3)' }} />
+            06 · Community <div style={{ flex: 1, height: 1, background: 'rgba(255,45,120,0.3)' }} />
           </div>
           <h2 className="font-display font-bold leading-tight" style={{ fontSize: 'clamp(28px,3vw,42px)' }}>
             Más allá<br /><span style={{ color: 'var(--neon-purple)' }}>del código</span>
