@@ -1,3 +1,5 @@
+import { useEffect, useState } from 'react'
+
 export default function Hero() {
   const stack = [
     { label: 'Java',        color: '#ff6b2b', bg: 'rgba(255,107,43,0.07)' },
@@ -12,9 +14,26 @@ export default function Hero() {
     { label: 'soprano', color: '#00ffe5', bg: 'rgba(0,255,229,0.07)' },
   ]
 
+  const badgePhrases = [
+    'Me gusta hablar',
+    'Mentora',
+    'Soprano',
+    "Un poco de to'",
+  ]
+
+  const [activeBadge, setActiveBadge] = useState(0)
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setActiveBadge(prev => (prev + 1) % badgePhrases.length)
+    }, 3000)
+
+    return () => clearInterval(interval)
+  }, [badgePhrases.length])
+
   return (
     <section id="hero" className="hero-grid grid min-h-screen items-center relative overflow-hidden"
-      style={{ padding: '120px 48px 40px' }}>
+      style={{ padding: '80px 48px 40px' }}>
 
       {/* Grid bg */}
       <div className="absolute inset-0" style={{
@@ -35,9 +54,12 @@ export default function Hero() {
 
       {/* Left */}
       <div className="relative z-10">
-        <span className="inline-block font-mono text-xs uppercase tracking-widest mb-10 px-3 py-1.5 rounded-sm"
-          style={{ color: 'var(--neon-cyan)', border: '1px solid rgba(0,255,229,0.3)', animation: 'fadeInUp 0.6s ease both' }}>
-          // Software Engineer · Filóloga · Me gusta hablar · Mentora · Soprano . Un poco de to'
+        <span className="hero-badge"
+          style={{ animation: 'fadeInUp 0.6s ease both', marginBottom: '1.5rem' }}>
+          <span className="hero-badge-label">Software Engineer ·</span>
+          <span key={badgePhrases[activeBadge]} className="hero-badge-text">
+            {badgePhrases[activeBadge]}
+          </span>
         </span>
         <h1 className="font-display font-black leading-none mb-4" style={{ fontSize: 'clamp(48px,6vw,88px)', animation: 'fadeInUp 0.6s 0.1s ease both' }}>
           <span className="block text-white">Raquel</span>
@@ -74,13 +96,13 @@ export default function Hero() {
 
       {/* Right: Terminal */}
       <div className="hero-terminal relative z-10 flex justify-end" style={{ animation: 'fadeInUp 0.6s 0.5s ease both', marginTop: 40 }}>
-        <div className="rounded-lg overflow-hidden" style={{
+        <div className="overflow-hidden" style={{
           width: '100%', maxWidth: 460, background: '#12121a',
-          border: '1px solid rgba(255,255,255,0.07)',
-          boxShadow: '0 0 0 1px rgba(255,45,120,0.1), 0 40px 80px rgba(0,0,0,0.5)',
+          border: '1px solid rgba(0,255,229,0.3)',
+          boxShadow: '0 0 0 1px rgba(0,255,229,0.1), 0 0 40px rgba(0,255,229,0.15), 0 40px 80px rgba(0,0,0,0.5)',
         }}>
           {/* Title bar */}
-          <div className="flex items-center gap-2 px-4 py-3" style={{ background: '#1a1a26', borderBottom: '1px solid rgba(255,255,255,0.07)' }}>
+          <div className="flex items-center gap-2 px-4 py-3" style={{ background: '#1a1a26', borderBottom: '1px solid rgba(0,255,229,0.15)' }}>
             <div className="w-2.5 h-2.5 rounded-full bg-red-400" />
             <div className="w-2.5 h-2.5 rounded-full bg-yellow-400" />
             <div className="w-2.5 h-2.5 rounded-full bg-green-400" />

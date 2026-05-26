@@ -21,7 +21,7 @@ const experience = [
     company: 'Capgemini',
     desc: 'Backend Java 8–17 + Frontend Angular. Migraciones SQL con Flyway. Women in Tech bootcamp interno.',
     chips: ['Java Spring Boot', 'Angular', 'PostgreSQL', 'Oracle', 'Flyway', 'GitLab', 'Scrum'],
- },
+  },
 ]
 
 export default function About() {
@@ -54,7 +54,10 @@ export default function About() {
 
       <div ref={rightRef} className="reveal">
         <p className="text-lg leading-relaxed mb-6" style={{ color: '#9090b0' }}>
-          Empecé con <strong className="text-white font-medium">letras y lenguajes humanos</strong>, acabé migrando a <strong className="text-yellow font-medium">código y lenguajes de programación</strong>. El camino no fue fácil, tras estudiar filología inglesa en la universidad, trabajé 6 años en logística. Rompí con mi "anterior vida" en 2022 en busca de una reconversión profesional, sumergiéndome en un duro bootcamp de Java a los 30. Me encantó y me quedé con ganas de más a pesar de estar currando, así que me he graduado en el grado superior de Desarrollo de Aplicaciones Multiplataforma — y eso es exactamente lo que me hace diferente.
+          Empecé con <strong className="text-white font-medium">letras y lenguajes humanos</strong>, acabé migrando a <strong className="text-yellow font-medium">código y lenguajes de programación</strong>. El camino no fue fácil, tras estudiar filología inglesa en la universidad, trabajé 6 años en logística. Rompí con mi "anterior vida" en 2022 en busca de una reconversión profesional, sumergiéndome en un duro bootcamp de Java a los 30. Me encantó y me quedé con ganas de más a pesar de estar currando, así que me he graduado en el grado superior de Desarrollo de Aplicaciones Multiplataforma — y esto es exactamente lo que me hace diferente.
+        </p>
+        <p className="text-lg leading-relaxed mb-6" style={{ color: '#b0b0c6' }}>
+          Sé lo que cuesta empezar de cero, no saber nada, estar perdida y abrumada. La empatía y la resiliencia que he ido forjando en mi camino me permiten ponerme en los zapatos de otras personas y de trabajar en equipo fomentando un ambiente de apoyo y crecimiento.
         </p>
         <p className="text-lg leading-relaxed mb-6" style={{ color: '#9090b0' }}>
           Actualmente trabajo como <span style={{ color: 'var(--neon-cyan)' }}>Software Engineer</span>, desarrollando microservicios backend con Java Spring Boot para clientes enterprise e implementando herramientas con GitHub Copilot. Empecé como fullstack Java/Angular y me he ido especializando en backend.
