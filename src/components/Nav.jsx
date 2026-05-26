@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-const NAV_LINKS = ['about','skills','projects','talk','community','contact']
+const NAV_LINKS = ['experience','about','skills','projects','talk','community','contact']
 
 export default function Nav() {
   const [open, setOpen] = useState(false)

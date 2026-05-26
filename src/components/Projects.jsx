@@ -105,7 +105,7 @@ export default function Projects() {
     <section id="projects" className="section-padded" style={{ padding: '120px 48px', maxWidth: 1200, margin: '0 auto' }}>
       <div ref={titleRef} className="reveal mb-16">
         <div className="font-mono text-xs uppercase tracking-widest mb-4 flex items-center gap-3" style={{ color: 'var(--neon-pink)' }}>
-          03 · Projects <div style={{ flex: 1, height: 1, background: 'rgba(255,45,120,0.3)' }} />
+          04 · Projects <div style={{ flex: 1, height: 1, background: 'rgba(255,45,120,0.3)' }} />
         </div>
         <h2 className="font-display font-bold leading-tight" style={{ fontSize: 'clamp(28px,3vw,42px)' }}>
           Lo que<br /><span style={{ color: 'var(--neon-orange)' }}>construyo</span>
