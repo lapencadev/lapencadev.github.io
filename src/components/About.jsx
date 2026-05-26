@@ -62,26 +62,6 @@ export default function About() {
         <p className="text-lg leading-relaxed mb-10" style={{ color: '#9090b0' }}>
           Aunque en paralelo exploro distintas tecnologías y construyo apps con <strong className="text-white font-medium">Flutter</strong>, <span className="text-cyan">Python</span>, <span className="text-yellow">Docker</span>, <span className="text-purple">Observability</span>, <span className="text-pink">AI tools</span>, <span style={{ color: '#8cff82' }}>Frontend Frameworks</span> y lo que me echen. En mi tiempo libre canto como soprano amateur en el Coro Diatessaron, y tengo la teoría de que los devs que se acercan a las humanidades saben escribir mejor código y son mejores managers.
         </p>
-
-        {/* Timeline */}
-        <div className="relative" style={{ paddingLeft: 32 }}>
-          <div className="absolute left-0 top-0 bottom-0" style={{ width: 1, background: 'linear-gradient(to bottom, var(--neon-pink), transparent)' }} />
-          {experience.map((e, i) => (
-            <div key={i} className="relative pb-10 last:pb-0">
-              <div className="absolute rounded-full" style={{ left: -36, top: 6, width: 9, height: 9, background: 'var(--neon-pink)', boxShadow: '0 0 10px rgba(255,45,120,0.6)' }} />
-              <div className="font-mono text-xs mb-1" style={{ color: '#6b6b8a', letterSpacing: '0.1em' }}>{e.period}</div>
-              <div className="font-display font-bold text-sm text-white mb-0.5">{e.role}</div>
-              <div className="font-mono text-xs mb-2.5" style={{ color: 'var(--neon-cyan)' }}>{e.company}</div>
-              <div className="text-sm leading-relaxed mb-2.5" style={{ color: '#6b6b8a' }}>{e.desc}</div>
-              <div className="flex flex-wrap gap-1.5">
-                {e.chips.map(c => (
-                  <span key={c} className="font-mono text-xs px-2 py-0.5 rounded-sm border"
-                    style={{ background: '#1a1a26', color: '#6b6b8a', borderColor: 'rgba(255,255,255,0.07)' }}>{c}</span>
-                ))}
-              </div>
-            </div>
-          ))}
-        </div>
       </div>
     </section>
   )
