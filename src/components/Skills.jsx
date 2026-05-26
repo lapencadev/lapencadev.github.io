@@ -84,7 +84,15 @@ function SkillCard({ card, delay }) {
       {/* icon set or emoji */}
       {card.icons.length > 0 ? (
         <div className="skill-icon-set">
-          {card.icons.map(ic => <img key={ic.label} src={ic.src} alt={ic.label} title={ic.label} />)}
+          {card.icons.map(ic => (
+            <img
+              key={ic.label}
+              src={ic.src}
+              alt={ic.label}
+              title={ic.label}
+              style={ic.src.includes('/github/') ? { filter: 'invert(1)' } : undefined}
+            />
+          ))}
         </div>
       ) : (
         <div className="text-3xl mb-4">{card.emoji}</div>

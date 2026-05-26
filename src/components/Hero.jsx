@@ -9,7 +9,7 @@ export default function Hero() {
   const extras = [
     { label: 'speaker',  color: '#f5ff00', bg: 'rgba(245,255,0,0.07)'  },
     { label: 'mentora',  color: '#b44fff', bg: 'rgba(180,79,255,0.07)' },
-    { label: 'soprano 🎵', color: '#00ffe5', bg: 'rgba(0,255,229,0.07)' },
+    { label: 'soprano', color: '#00ffe5', bg: 'rgba(0,255,229,0.07)' },
   ]
 
   return (
@@ -37,7 +37,7 @@ export default function Hero() {
       <div className="relative z-10">
         <span className="inline-block font-mono text-xs uppercase tracking-widest mb-10 px-3 py-1.5 rounded-sm"
           style={{ color: 'var(--neon-cyan)', border: '1px solid rgba(0,255,229,0.3)', animation: 'fadeInUp 0.6s ease both' }}>
-          // Software Engineer · Speaker · Filóloga
+          // Software Engineer · Filóloga · Me gusta hablar · Mentora · Soprano . Un poco de to'
         </span>
         <h1 className="font-display font-black leading-none mb-4" style={{ fontSize: 'clamp(48px,6vw,88px)', animation: 'fadeInUp 0.6s 0.1s ease both' }}>
           <span className="block text-white">Raquel</span>

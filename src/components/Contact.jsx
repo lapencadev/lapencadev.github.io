@@ -32,8 +32,8 @@ export default function Contact() {
           HA<span style={{ color: 'var(--neon-pink)', WebkitTextStroke: 0, textShadow: '0 0 60px rgba(255,45,120,0.5)' }}>BLA</span>MOS
         </div>
         <p className="text-lg leading-relaxed mb-12" style={{ color: '#6b6b8a' }}>
-          ¿Quieres que dé una charla en tu evento?<br />
-          ¿Colaborar en algo chulo? ¿O simplemente saludar?
+          ¿Qué me propones?<br />
+          ¿Pasas a saludar?
         </p>
         <div className="flex justify-center gap-4 flex-wrap">
           {links.map(l => (
