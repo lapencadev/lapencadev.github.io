@@ -123,6 +123,10 @@ export default function Skills() {
           <h2 className="font-display font-bold leading-tight" style={{ fontSize: 'clamp(28px,3vw,42px)' }}>
             Stack &<br /><span style={{ color: 'var(--neon-cyan)' }}>Superpoderes</span>
           </h2>
+          <p className="font-mono text-xs mt-4 leading-relaxed" style={{ color: '#6b6b8a' }}>
+            <span style={{ color: 'var(--neon-yellow)' }}>{'// disclaimer:'}</span>{' mi stack principal es Java & Spring Boot'}<br />
+            <span style={{ color: 'var(--neon-yellow)' }}>{'//             '}</span>{' mi superpoder es que me gusta toquetear y aprender de todo'}
+          </p>
         </div>
         <div className="grid gap-6" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))' }}>
           {cards.map((card, i) => <SkillCard key={card.title} card={card} delay={i * 60} />)}

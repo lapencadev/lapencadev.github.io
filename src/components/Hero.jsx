@@ -26,7 +26,7 @@ export default function Hero() {
   useEffect(() => {
     const interval = setInterval(() => {
       setActiveBadge(prev => (prev + 1) % badgePhrases.length)
-    }, 3000)
+    }, 1500)
 
     return () => clearInterval(interval)
   }, [badgePhrases.length])
@@ -164,7 +164,7 @@ export default function Hero() {
             </div>
 
             <div className="pl-4 mt-1" style={{ color: '#6b6b8a' }}>{'}'}</div>
-            <div className="flex gap-2 mt-3">
+            <div className="flex gap-2 mt-3 pl-4">
               <span style={{ color: 'var(--neon-pink)' }}>❯</span>
               <span className="inline-block w-2 h-3.5 align-middle" style={{ background: 'var(--neon-pink)', animation: 'blink 1s step-end infinite' }} />
             </div>
