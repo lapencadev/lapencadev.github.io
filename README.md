@@ -1,8 +1,8 @@
 # lapencadev — portfolio personal ✨
 
-Portfolio de **Raquel Sánchez Guirado**, Software Engineer, speaker y mentora. Construido con React + Vite + Tailwind CSS y desplegado en Netlify.
+Welcome to my portfolio!
 
-> Dark mode, cursores neon, iconos flotantes y mucho amor por el código ☕
+> Dark mode, cursores neon, iconos flotantes y mucho amor tech ☕
 
 ---
 
@@ -13,12 +13,12 @@ El portfolio está organizado en secciones:
 | Sección | Qué muestra |
 |---|---|
 | **Hero** | Presentación con terminal animada y stack chips |
-| **About** | Timeline de experiencia (Accenture, New Work SE, Capgemini) |
-| **Skills** | Cards con tecnologías: Java, Spring Boot, Flutter, Angular, Vue, Docker, K8s... |
-| **Projects** | Coro Diatessaron, Closet App, SabrosApp (TFG), Webs de boda |
-| **Talk** | Charla T3chFest 2024 — "Políglota del siglo XXI" |
-| **Community** | Step4ward, Soprano/Coro, Medium, Mulleres en Tech |
-| **Contact** | Email, LinkedIn, GitHub, X, Linktree |
+| **About** | Timeline de experiencia |
+| **Skills** | Cards con tecnologías |
+| **Projects** | Algunos de mis proyectos visibles |
+| **Talk** | Charla |
+| **Community** | Cositas que hago en comunidad |
+| **Contact** | Datos de contacto |
 
 ### Detalles de diseño
 
