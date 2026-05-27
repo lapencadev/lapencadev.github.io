@@ -102,9 +102,9 @@ export default function Hero() {
         }}>
           {/* Title bar */}
           <div className="flex items-center gap-2 px-4 py-3" style={{ background: '#1a1a26', borderBottom: '1px solid rgba(0,255,229,0.15)' }}>
-            <div className="w-2.5 h-2.5 rounded-full bg-red-400" />
-            <div className="w-2.5 h-2.5 rounded-full bg-yellow-400" />
-            <div className="w-2.5 h-2.5 rounded-full bg-green-400" />
+            <div className="w-2.5 h-2.5 rounded-full" style={{ background: '#ff5f56' }} />
+            <div className="w-2.5 h-2.5 rounded-full" style={{ background: '#ffbd2e' }} />
+            <div className="w-2.5 h-2.5 rounded-full" style={{ background: '#27c93f' }} />
             <span className="font-mono text-xs ml-2" style={{ color: '#6b6b8a' }}>raquel@lapencadev ~</span>
           </div>
 
