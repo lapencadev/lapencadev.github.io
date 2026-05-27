@@ -1,15 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
   <defs>
     <radialGradient id="g1" cx="75%" cy="15%" r="50%">
-      <stop offset="0%" stop-color="#ff2d78" stop-opacity="0.13"/>
+      <stop offset="0%" stop-color="#ff2d78" stop-opacity="0.15"/>
       <stop offset="100%" stop-color="#ff2d78" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="g2" cx="15%" cy="85%" r="40%">
-      <stop offset="0%" stop-color="#00ffe5" stop-opacity="0.07"/>
+      <stop offset="0%" stop-color="#00ffe5" stop-opacity="0.08"/>
       <stop offset="100%" stop-color="#00ffe5" stop-opacity="0"/>
     </radialGradient>
     <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
-      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#ff2d78" stroke-width="0.4" opacity="0.12"/>
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#ff2d78" stroke-width="0.5" opacity="0.1"/>
     </pattern>
   </defs>
 
@@ -19,40 +19,42 @@
   <rect width="1200" height="630" fill="url(#g2)"/>
 
   <!-- left accent line -->
-  <rect x="80" y="140" width="3" height="340" rx="2" fill="#ff2d78" opacity="0.5"/>
+  <rect x="72" y="110" width="4" height="400" rx="2" fill="#ff2d78" opacity="0.6"/>
 
   <!-- handle -->
-  <text x="108" y="200" font-family="monospace" font-size="18" fill="#f5ff00" letter-spacing="3">@lapencadev</text>
+  <text x="100" y="172" font-family="monospace" font-size="30" fill="#f5ff00" letter-spacing="4">@lapencadev</text>
 
   <!-- name -->
-  <text x="105" y="302" font-family="Arial Black, sans-serif" font-size="78" font-weight="900" fill="white" letter-spacing="-2">Raquel</text>
-  <text x="105" y="388" font-family="Arial Black, sans-serif" font-size="78" font-weight="900" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="1.5" letter-spacing="-2">Sánchez G.</text>
+  <text x="96" y="320" font-family="Arial Black, sans-serif" font-size="128" font-weight="900" fill="white" letter-spacing="-3">Raquel</text>
+  <text x="96" y="440" font-family="Arial Black, sans-serif" font-size="104" font-weight="900" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="2" letter-spacing="-2">Sánchez G.</text>
 
   <!-- tagline -->
-  <text x="108" y="442" font-family="monospace" font-size="19" fill="#00ffe5" letter-spacing="0.5">De letras a código, sin perder el acento murciano</text>
+  <text x="100" y="506" font-family="monospace" font-size="28" fill="#00ffe5" letter-spacing="0.5">De letras a código, sin perder el acento murciano</text>
 
-  <!-- RIGHT chips -->
+  <!-- RIGHT chips: x=760, width=400 -->
+
   <!-- Software Engineer — cyan -->
-  <rect x="800" y="160" width="320" height="44" rx="5" fill="rgba(0,255,229,0.07)" stroke="#00ffe5" stroke-width="1" stroke-opacity="0.35"/>
-  <text x="960" y="188" font-family="monospace" font-size="15" fill="#00ffe5" text-anchor="middle" font-weight="bold">Software Engineer</text>
+  <rect x="755" y="140" width="400" height="62" rx="6" fill="rgba(0,255,229,0.07)" stroke="#00ffe5" stroke-width="1.5" stroke-opacity="0.4"/>
+  <text x="955" y="179" font-family="monospace" font-size="26" fill="#00ffe5" text-anchor="middle" font-weight="bold">Software Engineer</text>
 
-  <!-- Java · Spring Boot · Flutter — yellow -->
-  <rect x="800" y="218" width="320" height="44" rx="5" fill="rgba(245,255,0,0.05)" stroke="#f5ff00" stroke-width="1" stroke-opacity="0.35"/>
-  <text x="960" y="246" font-family="monospace" font-size="14" fill="#f5ff00" text-anchor="middle">Java · Spring Boot · Flutter · y más</text>
+  <!-- Java · Spring Boot / Flutter · y más — yellow, 2 líneas -->
+  <rect x="755" y="218" width="400" height="82" rx="6" fill="rgba(245,255,0,0.05)" stroke="#f5ff00" stroke-width="1.5" stroke-opacity="0.4"/>
+  <text x="955" y="250" font-family="monospace" font-size="22" fill="#f5ff00" text-anchor="middle">Java · Spring Boot</text>
+  <text x="955" y="282" font-family="monospace" font-size="22" fill="#f5ff00" text-anchor="middle">Flutter · y más</text>
 
   <!-- Mentora Step4ward — purple -->
-  <rect x="800" y="276" width="320" height="44" rx="5" fill="rgba(180,79,255,0.06)" stroke="#b44fff" stroke-width="1" stroke-opacity="0.35"/>
-  <text x="960" y="304" font-family="monospace" font-size="15" fill="#b44fff" text-anchor="middle">Mentora Step4ward</text>
+  <rect x="755" y="316" width="400" height="62" rx="6" fill="rgba(180,79,255,0.06)" stroke="#b44fff" stroke-width="1.5" stroke-opacity="0.4"/>
+  <text x="955" y="355" font-family="monospace" font-size="26" fill="#b44fff" text-anchor="middle">Mentora Step4ward</text>
 
   <!-- Soprano — pink -->
-  <rect x="800" y="334" width="320" height="44" rx="5" fill="rgba(255,45,120,0.07)" stroke="#ff2d78" stroke-width="1" stroke-opacity="0.35"/>
-  <text x="960" y="362" font-family="monospace" font-size="15" fill="#ff2d78" text-anchor="middle">Soprano 🎵</text>
+  <rect x="755" y="394" width="400" height="62" rx="6" fill="rgba(255,45,120,0.07)" stroke="#ff2d78" stroke-width="1.5" stroke-opacity="0.4"/>
+  <text x="955" y="433" font-family="monospace" font-size="26" fill="#ff2d78" text-anchor="middle">Soprano ♪</text>
 
   <!-- bottom bar -->
-  <rect x="0" y="596" width="1200" height="34" fill="#12121a"/>
-  <rect x="0" y="596" width="1200" height="1" fill="#1a1a26"/>
-  <text x="108" y="619" font-family="monospace" font-size="12" fill="#6b6b8a">lapencadev.github.io</text>
-  <circle cx="1102" cy="613" r="5" fill="#ff2d78" opacity="0.7"/>
-  <circle cx="1118" cy="613" r="5" fill="#00ffe5" opacity="0.7"/>
-  <circle cx="1134" cy="613" r="5" fill="#f5ff00" opacity="0.7"/>
+  <rect x="0" y="576" width="1200" height="54" fill="#12121a"/>
+  <rect x="0" y="576" width="1200" height="1" fill="#1a1a26"/>
+  <text x="100" y="611" font-family="monospace" font-size="24" fill="#6b6b8a">lapencadev.github.io</text>
+  <circle cx="1102" cy="603" r="9" fill="#ff2d78" opacity="0.8"/>
+  <circle cx="1126" cy="603" r="9" fill="#00ffe5" opacity="0.8"/>
+  <circle cx="1150" cy="603" r="9" fill="#f5ff00" opacity="0.8"/>
 </svg>
