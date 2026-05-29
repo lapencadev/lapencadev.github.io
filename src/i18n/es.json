@@ -1,0 +1,136 @@
+{
+  "nav": {
+    "menuLabel": "Abrir menú",
+    "links": {
+      "experience": "experiencia",
+      "about": "sobre mí",
+      "skills": "habilidades",
+      "projects": "proyectos",
+      "talk": "speaker",
+      "community": "comunidad",
+      "contact": "contacto"
+    }
+  },
+  "hero": {
+    "badges": ["Me gusta hablar", "Mentora", "Soprano", "Un poco de to'"],
+    "extras": ["speaker", "mentora", "soprano"],
+    "stackMore": "& más",
+    "terminalBackground": "Filóloga → Dev",
+    "terminalMotto": "código con acento",
+    "desc": "De <strong class=\"text-white font-medium\">letras</strong> a <strong class=\"text-white font-medium\">código</strong>, sin perder el acento <strong class=\"text-white font-medium\">murciano</strong> 🍋",
+    "ctaTalk": "💬 Hablemos",
+    "ctaLinks": "→ Todos mis links"
+  },
+  "experience": {
+    "sectionLabel": "01 · Experiencia",
+    "title": "Experiencia",
+    "titleAccent": "laboral",
+    "jobs": [
+      {
+        "period": "ABRIL 2026 — PRESENTE",
+        "desc": "Backend microservicios para cliente retail. Clean architecture, TDD, AI-assisted dev con GitHub Copilot."
+      },
+      {
+        "period": "JUNIO 2025 — ENERO 2026",
+        "desc": "Backend Java 17-21. Nuevas features en microservicios de integración, cloud migration, reducción de deuda técnica. Monitoring con Grafana y Datadog."
+      },
+      {
+        "period": "SEPTIEMBRE 2022 — MAYO 2025",
+        "desc": "Backend Java 8–17 + Frontend Angular. Migraciones SQL con Flyway. Women in Tech bootcamp interno."
+      }
+    ]
+  },
+  "about": {
+    "sectionLabel": "02 · Sobre mí",
+    "title": "Letras",
+    "titleAccentPrefix": "que ",
+    "titleAccent": "compilan",
+    "sidebar": [
+      "Filóloga Inglesa · UMU",
+      "DAM · IES Los Albares",
+      "Backend Dev · Java & Spring Boot",
+      "Step4ward · Mentora & Comunidad"
+    ],
+    "p1": "Empecé con <strong class=\"text-white font-medium\">letras y lenguajes humanos</strong>, acabé migrando a <strong class=\"font-medium\" style=\"color:var(--neon-yellow)\">código y lenguajes de programación</strong>. El camino no fue fácil, tras estudiar filología inglesa en la universidad, trabajé 6 años en logística. Rompí con mi \"anterior vida\" en 2022 en busca de una reconversión profesional, sumergiéndome en un duro bootcamp de Java a los 30. Me encantó y me quedé con ganas de más a pesar de estar currando, así que me he graduado en el grado superior de Desarrollo de Aplicaciones Multiplataforma — y esto es exactamente lo que me hace diferente.",
+    "p2": "Sé lo que cuesta empezar de cero, no saber nada, estar perdida y abrumada. La empatía y la resiliencia que he ido forjando en mi camino me permiten ponerme en los zapatos de otras personas y trabajar en equipo fomentando un ambiente de apoyo y crecimiento.",
+    "p3": "Actualmente trabajo como <span style=\"color:var(--neon-cyan)\">Software Engineer</span>, desarrollando microservicios backend con Java Spring Boot para clientes enterprise e implementando herramientas con GitHub Copilot. Empecé como fullstack Java/Angular y me he ido especializando en backend.",
+    "p4": "Aunque en paralelo exploro distintas tecnologías y construyo apps con <strong class=\"text-white font-medium\">Flutter</strong>, <span style=\"color:var(--neon-cyan)\">Python</span>, <span style=\"color:var(--neon-yellow)\">Docker</span>, <span style=\"color:var(--neon-purple)\">Observability</span>, <span style=\"color:var(--neon-pink)\">AI tools</span>, <span style=\"color:#8cff82\">Frontend Frameworks</span> y lo que me echen. En mi tiempo libre canto como soprano amateur en el Coro Diatessaron, y tengo la teoría de que los devs que se acercan a las humanidades saben escribir mejor código y son mejores managers."
+  },
+  "skills": {
+    "sectionLabel": "04 · Habilidades",
+    "title": "Stack &",
+    "titleAccent": "Superpoderes",
+    "disclaimer1": "mi stack principal es Java & Spring Boot",
+    "disclaimer2": "mi superpoder es que me gusta toquetear y aprender de todo",
+    "cards": [
+      { "title": "Backend",           "skills": ["Java 8–21 (principal)", "Kotlin", "Spring Boot / Spring MVC", "NodeJS · Python", "Microservicios & Clean Architecture"] },
+      { "title": "Mobile & Frontend", "skills": ["Flutter / Dart", "Angular · Vue.js", "TypeScript / JavaScript", "HTML / CSS"] },
+      { "title": "Data",              "skills": ["PostgreSQL · MySQL · Oracle", "MongoDB · SQLite", "Snowflake · Flyway", "SQL avanzado"] },
+      { "title": "DevOps & Tools",    "skills": ["Docker / Podman", "Kubernetes · Git · CI/CD", "Grafana · Datadog · Dash0", "Jira · Swagger · Postman", "SonarQube · Figma · Firebase"] },
+      { "title": "AI Tooling",        "skills": ["Claude", "GitHub Copilot", "Gemini API"] },
+      { "title": "Idiomas",           "skills": ["Español — nativa", "Inglés — C1 Trinity College London", "Alemán — A2 EOI", "Francés — A1"] }
+    ]
+  },
+  "projects": {
+    "sectionLabel": "03 · Proyectos",
+    "title": "Lo que",
+    "titleAccent": "construyo",
+    "screenshotsLabel": "Ver capturas",
+    "gradeLabel": "nota",
+    "items": [
+      { "desc": "Web del coro donde canto como soprano amateur. Diseño y desarrollo completo de la página." },
+      { "desc": "Aplicación para organizar tu armario digital. Proyecto personal en Flutter." },
+      { "desc": "Trabajo de fin de grado del DAM. App de gestión de restaurante multiplataforma: iOS, Android y web." },
+      { "desc": "Kata de TDD en Java. Implementación del problema Rover en Marte con arquitectura limpia, JUnit 5, Maven y cobertura con JaCoCo." },
+      { "desc": "Detalles hechos con código y cariño para las bodas de mis amigas." }
+    ]
+  },
+  "talk": {
+    "sectionLabel": "05 · Speaker",
+    "titleLine1": "On the",
+    "titleAccent": "Stage",
+    "talkDesc": "Filología y programación son más parecidos de lo que crees. Un viaje entre lenguajes humanos y lenguajes de máquina, explorando cómo aprender idiomas y aprender a programar comparten las mismas bases cognitivas.",
+    "ctaFull": "▶ Ver charla",
+    "ctaShort": "▶ Versión corta"
+  },
+  "community": {
+    "sectionLabel": "06 · Comunidad",
+    "title": "Más allá",
+    "titleAccent": "del código",
+    "items": [
+      {
+        "title": "Step4ward",
+        "desc": "Comunidad de mujeres en tech. Mentoring, organización de eventos y visibilización de talento femenino en la industria.",
+        "badge": "Mentora & Organizadora",
+        "linkLabel": "↗ Mi perfil Step4ward"
+      },
+      {
+        "title": "Soprano",
+        "desc": "El código es mi lenguaje del día, pero la música es el del alma. Canto como soprano en el Coro Diatessaron.",
+        "badge": "Coro Diatessaron",
+        "linkLabel": "↗ corodiatessaron.netlify.app"
+      },
+      {
+        "title": "Escribo en Medium",
+        "desc": "Reflexiones sobre desarrollo, humanidades y la vida de una dev reconvertida.",
+        "badge": "Blog",
+        "linkLabel": "↗ medium.com/@lapencadev"
+      },
+      {
+        "title": "Prensa",
+        "desc": "Entrevista en Mulleres en Tech sobre mi trayectoria de las letras a la programación.",
+        "badge": "Mulleres en Tech",
+        "linkLabel": "↗ Leer entrevista"
+      }
+    ]
+  },
+  "contact": {
+    "headlinePre": "HA",
+    "headlineAccent": "BLA",
+    "headlinePost": "MOS",
+    "subtitle": "¿Qué me propones?\n¿Pasas a saludar?"
+  },
+  "footer": {
+    "copy": "© 2026 · hecho con ♥ y mis mejos Copilotina & Claudio"
+  }
+}

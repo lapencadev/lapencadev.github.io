@@ -161,6 +161,14 @@ body::before {
 .about-grid { display: grid; grid-template-columns: 1fr 2fr; gap: 80px; align-items: start; max-width: 1200px; margin: 0 auto; }
 .talk-grid { grid-template-columns: 1fr 1fr; }
 
+/* Tablet / medium screens (768px – 1100px) */
+@media (max-width: 1100px) and (min-width: 769px) {
+  .hero-grid { gap: 40px; }
+  .about-grid { gap: 40px !important; }
+  .section-padded { padding: 48px 28px !important; }
+  .talk-section { padding: 48px 28px !important; }
+}
+
 @media (max-width: 768px) {
   /* Hide custom cursor on touch devices */
   body { cursor: auto; }
@@ -171,13 +179,13 @@ body::before {
   .hero-terminal { width: 100% !important; justify-content: flex-start !important; }
 
   /* About: single column, no sticky */
-  .about-grid { grid-template-columns: 1fr !important; gap: 48px !important; padding: 80px 20px !important; }
+  .about-grid { grid-template-columns: 1fr !important; gap: 40px !important; padding: 52px 20px !important; }
   .about-sticky { position: static !important; }
 
   /* Talk: stack text above video */
   .talk-grid { grid-template-columns: 1fr !important; }
-  .talk-section { padding: 80px 20px !important; }
+  .talk-section { padding: 52px 20px !important; }
 
   /* Generic section padding reduction */
-  .section-padded { padding: 80px 20px !important; }
+  .section-padded { padding: 52px 20px !important; }
 }

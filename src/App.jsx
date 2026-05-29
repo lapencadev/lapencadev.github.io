@@ -1,3 +1,4 @@
+import { LanguageProvider } from './i18n/LanguageContext'
 import Cursor from './components/Cursor'
 import DecoIcons from './components/DecoIcons'
 import Nav from './components/Nav'
@@ -13,7 +14,7 @@ import Footer from './components/Footer'
 
 export default function App() {
   return (
-    <>
+    <LanguageProvider>
       <Cursor />
       <DecoIcons />
       <Nav />
@@ -21,13 +22,13 @@ export default function App() {
         <Hero />
         <Experience />
         <About />
-        <Skills />
         <Projects />
+        <Skills />
         <Talk />
         <Community />
         <Contact />
       </main>
       <Footer />
-    </>
+    </LanguageProvider>
   )
 }

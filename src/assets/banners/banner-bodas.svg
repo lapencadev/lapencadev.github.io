@@ -1,0 +1,88 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgBoda" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0e0a14"/>
+      <stop offset="55%" stop-color="#130d1c"/>
+      <stop offset="100%" stop-color="#1a0e22"/>
+    </linearGradient>
+
+    <!-- Degradado dorado para los nuevos anillos -->
+    <linearGradient id="oroAnillos" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffe596"/>
+      <stop offset="35%" stop-color="#d4af37"/>
+      <stop offset="70%" stop-color="#aa7c11"/>
+      <stop offset="100%" stop-color="#f3e5ab"/>
+    </linearGradient>
+
+    <!-- Sombra suave para dar relieve a los anillos -->
+    <filter id="shadowAnillo" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bgBoda)"/>
+
+  <!-- Resplandores ambientales -->
+  <ellipse cx="215" cy="315" rx="240" ry="185" fill="#ff2d78" opacity="0.05"/>
+  <ellipse cx="800" cy="315" rx="320" ry="200" fill="#ff2d78" opacity="0.025"/>
+
+  <!-- Estrellas decorativas -->
+  <circle cx="100"  cy="80"  r="1.6" fill="#ff2d78" opacity="0.5"/>
+  <circle cx="155"  cy="52"  r="1.1" fill="#ff2d78" opacity="0.35"/>
+  <circle cx="82"   cy="130" r="1.3" fill="#ff2d78" opacity="0.28"/>
+  <circle cx="200"  cy="105" r="1.0" fill="#ff2d78" opacity="0.4"/>
+  <circle cx="330"  cy="60"  r="1.4" fill="#ff2d78" opacity="0.3"/>
+  <circle cx="1090" cy="510" r="1.6" fill="#ff2d78" opacity="0.4"/>
+  <circle cx="870"  cy="65"  r="1.5" fill="#ff2d78" opacity="0.38"/>
+
+  <!-- Arco decorativo -->
+  <circle cx="80" cy="315" r="310" fill="none" stroke="#ff2d78" stroke-width="1" opacity="0.06"/>
+  <circle cx="80" cy="315" r="235" fill="none" stroke="#ff2d78" stroke-width="1" opacity="0.04"/>
+
+  <!-- ===== ANILLOS REDISEÑADOS (Elegantes, entrelazados y con relieve) ===== -->
+  <g transform="translate(215, 315)" filter="url(#shadowAnillo)">
+    <!-- Anillo Izquierdo (Alianza lisa) -->
+    <circle cx="-35" cy="10" r="65" stroke="url(#oroAnillos)" stroke-width="14" fill="none"/>
+    <circle cx="-35" cy="10" r="65" stroke="#ffffff" stroke-width="2" fill="none" opacity="0.3"/>
+    
+    <!-- Anillo Derecho (Compromiso, superpuesto) -->
+    <circle cx="35" cy="10" r="55" stroke="url(#oroAnillos)" stroke-width="11" fill="none"/>
+    <circle cx="35" cy="10" r="55" stroke="#ffffff" stroke-width="1.5" fill="none" opacity="0.3"/>
+    
+    <!-- Engaste del Diamante -->
+    <path d="M 23 -41 L 47 -41 L 35 -24 Z" fill="url(#oroAnillos)"/>
+    <!-- Diamante Brillante Vectorial -->
+    <polygon points="15,-46 25,-58 45,-58 55,-46 35,-32" fill="#e0f7fa" stroke="#ffffff" stroke-width="1.5"/>
+    <polyline points="25,-58 35,-46 45,-58 M 15,-46 35,-46 55,-46 M 35,-46 35,-32" stroke="#ffffff" stroke-width="1" opacity="0.7"/>
+  </g>
+
+  <!-- ===== SEPARADOR VERTICAL ===== -->
+  <line x1="430" y1="52" x2="430" y2="578" stroke="#ff2d78" stroke-width="1.5" opacity="0.20"/>
+  <circle cx="430" cy="52"  r="3.5" fill="#ff2d78" opacity="0.4"/>
+  <circle cx="430" cy="578" r="3.5" fill="#ff2d78" opacity="0.4"/>
+
+  <!-- ===== CONTENIDO DERECHO ===== -->
+  <!-- Etiqueta superior -->
+  <rect x="468" y="102" width="178" height="34" rx="17" fill="none" stroke="#ff2d78" stroke-width="1.2" opacity="0.45"/>
+  <text x="557" y="124" font-family="Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="700" fill="#ff2d78" text-anchor="middle" letter-spacing="2">WEB · PERSONAL</text>
+
+  <!-- Título mejorado y más descriptivo -->
+  <text x="468" y="248" font-family="Georgia, 'Times New Roman', serif" font-size="72" font-weight="bold" fill="white">Contador de</text>
+  <text x="468" y="330" font-family="Georgia, 'Times New Roman', serif" font-size="72" font-weight="bold" fill="#ff2d78">boda personalizado</text>
+
+  <!-- Línea divisoria -->
+  <rect x="468" y="356" width="580" height="2" rx="1" fill="#ff2d78" opacity="0.22"/>
+  <rect x="468" y="356" width="110" height="2" rx="1" fill="#ff2d78" opacity="0.85"/>
+
+  <!-- Subtítulo (Más junto al título, subido y con más opacidad para que no lo tape el sombrado inferior) -->
+  <text x="468" y="405" font-family="Helvetica Neue, Arial, sans-serif" font-size="24" fill="white" opacity="0.85">La cuenta atrás perfecta para el gran día</text>
+
+  <!-- Tecnologías (Subidas de posición y con más opacidad para asegurar legibilidad) -->
+  <text x="468" y="455" font-family="Helvetica Neue, Arial, sans-serif" font-size="14.5" fill="white" opacity="0.60" letter-spacing="3">HTML · CSS · JAVASCRIPT · VITE</text>
+
+  <!-- Detalles del pie del banner -->
+  <rect x="0"   y="618" width="430" height="12" fill="#ff2d78" opacity="0.05"/>
+  <rect x="0"   y="621" width="130" height="9"  rx="4.5" fill="#ff2d78" opacity="0.4"/>
+  <rect x="136" y="621" width="48"  height="9"  rx="4.5" fill="#ff2d78" opacity="0.16"/>
+  <rect x="430" y="618" width="770" height="12" fill="#ff2d78" opacity="0.03"/>
+</svg>
