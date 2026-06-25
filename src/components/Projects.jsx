@@ -17,6 +17,16 @@ import screenshotMacos from '../assets/sabrosapp/screenshot-macos.png'
 import bannerDiatessaron from '../assets/banners/banner-diatessaron.png'
 import bannerSabrosapp from '../assets/banners/banner-sabrosapp.svg'
 import bannerBodas from '../assets/banners/banner-bodas.svg'
+import bannerCacalogo from '../assets/banners/banner-cacalogo.png'
+
+import cacalogoInicio    from '../assets/cacalogo/Screenshot_20260619_155251.png'
+import cacalogoNuevo     from '../assets/cacalogo/Screenshot_20260619_155327.png'
+import cacalogoLaCulebra from '../assets/cacalogo/Screenshot_20260619_155344.png'
+import cacalogoDetalle   from '../assets/cacalogo/Screenshot_20260619_155451.png'
+import cacalogoHistorial from '../assets/cacalogo/Screenshot_20260619_155501.png'
+import cacalogoGrafica   from '../assets/cacalogo/Screenshot_20260619_155510.png'
+import cacalogoInforme   from '../assets/cacalogo/Screenshot_20260619_155518.png'
+import cacalogoAjustes   from '../assets/cacalogo/Screenshot_20260619_155545.png'
 
 const DEVICE_BADGE = {
   android: { label: 'Android', color: '#3ddc84' },
@@ -34,12 +44,25 @@ const sabrosappSlides = [
   { src: screenshotMacos,              device: 'macos',   label: 'macOS'        },
 ]
 
+const cacalogoSlides = [
+  { src: cacalogoInicio,    device: 'android', label: 'Inicio'        },
+  { src: cacalogoNuevo,     device: 'android', label: 'Nuevo registro' },
+  { src: cacalogoLaCulebra, device: 'android', label: '¡La perfecta!' },
+  { src: cacalogoDetalle,   device: 'android', label: 'Detalle'       },
+  { src: cacalogoHistorial, device: 'android', label: 'Historial'     },
+  { src: cacalogoGrafica,   device: 'android', label: 'Estadísticas'  },
+  { src: cacalogoInforme,   device: 'android', label: 'Informe'       },
+  { src: cacalogoAjustes,   device: 'android', label: 'Ajustes'       },
+]
+
 function Lightbox({ slides, initialIndex, onClose }) {
   const [current, setCurrent] = useState(initialIndex)
   const prev = useCallback(() => setCurrent(i => (i - 1 + slides.length) % slides.length), [slides.length])
   const next = useCallback(() => setCurrent(i => (i + 1) % slides.length), [slides.length])
   const onCloseRef = useRef(onClose)
-  onCloseRef.current = onClose
+  useEffect(() => {
+    onCloseRef.current = onClose
+  })
 
   useEffect(() => {
     const onKey = e => {
@@ -118,6 +141,31 @@ const TAG_COLORS = {
 
 const PROJECTS_STATIC = [
   {
+    icon: <img src={sabrosappSrc} style={{ width: 52, height: 52, boxSizing: 'border-box', padding: 6, objectFit: 'contain', marginBottom: 16, borderRadius: '50%', background: '#fff', boxShadow: 'inset 0 4px 10px rgba(255,255,255,0.6), 0 0 15px rgba(255,255,255,0.4)' }} alt="SabrosApp" />,
+    title: 'SabrosApp — TFG',
+    grade: '10',
+    banner: bannerSabrosapp,
+    bannerPosition: 'center',
+    tags: ['Flutter', 'Java', 'Firebase', 'DAM', 'Multiplataforma'],
+    links: [
+      { label: '↗ Live', href: 'https://sabrosapp.netlify.app/' },
+      { label: '↗ GitHub', href: 'https://github.com/JPBSdam/Proyecto-intermodular' },
+    ],
+    carousel: true,
+    slides: sabrosappSlides,
+  },
+  {
+    title: 'Cacálogo',
+    banner: bannerCacalogo,
+    bannerPosition: 'center',
+    tags: ['Flutter', 'Dart', 'Móvil', 'Personal'],
+    links: [
+      { label: '↗ Google Play Store soon! (status: only for testers)', },
+    ],
+    carousel: true,
+    slides: cacalogoSlides,
+  },
+  {
     icon: <img src={diatessaronSrc} style={{ width: 52, height: 52, objectFit: 'contain', marginBottom: 16, borderRadius: '50%', boxShadow: 'inset 0 4px 10px rgba(255,255,255,0.6), 0 0 15px rgba(255,255,255,0.4)' }} alt="Diatessaron" />,
     title: 'Coro Diatessaron',
     banner: bannerDiatessaron,
@@ -135,19 +183,6 @@ const PROJECTS_STATIC = [
     links: [
       { label: '↗ GitHub', href: 'https://github.com/lapencadev/closet-app' },
     ],
-  },
-  {
-    icon: <img src={sabrosappSrc} style={{ width: 52, height: 52, boxSizing: 'border-box', padding: 6, objectFit: 'contain', marginBottom: 16, borderRadius: '50%', background: '#fff', boxShadow: 'inset 0 4px 10px rgba(255,255,255,0.6), 0 0 15px rgba(255,255,255,0.4)' }} alt="SabrosApp" />,
-    title: 'SabrosApp — TFG',
-    grade: '10',
-    banner: bannerSabrosapp,
-    bannerPosition: 'center',
-    tags: ['Flutter', 'Java', 'Firebase', 'DAM', 'Multiplataforma'],
-    links: [
-      { label: '↗ Live', href: 'https://sabrosapp.netlify.app/' },
-      { label: '↗ GitHub', href: 'https://github.com/JPBSdam/Proyecto-intermodular' },
-    ],
-    carousel: true,
   },
   {
     icon: <img src={rocketSrc} style={{ width: 52, height: 52, boxSizing: 'border-box', padding: 8, objectFit: 'contain', marginBottom: 16, borderRadius: '50%', background: '#11101a', filter: 'drop-shadow(0 0 12px rgba(255,107,43,0.5))' }} alt="Kata Mars Rover" />,
@@ -252,8 +287,8 @@ function ProjectCard({ project, delay }) {
         </div>
       </div>
 
-      {project.carousel && lightboxOpen && (
-        <Lightbox slides={sabrosappSlides} initialIndex={0} onClose={() => setLightboxOpen(false)} />
+      {project.carousel && project.slides && lightboxOpen && (
+        <Lightbox slides={project.slides} initialIndex={0} onClose={() => setLightboxOpen(false)} />
       )}
     </div>
   )
@@ -280,7 +315,7 @@ export default function Projects() {
       </div>
 
       {/* Fila con banners — stretch por defecto, spacer interno empuja links al fondo */}
-      <div className="grid gap-6 mb-6" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(320px,1fr))' }}>
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
         {withBanner.map((p, i) => <ProjectCard key={p.title} project={p} delay={i * 80} />)}
       </div>
 

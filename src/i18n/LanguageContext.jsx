@@ -18,4 +18,5 @@ export function LanguageProvider({ children }) {
   return <Ctx.Provider value={{ lang, setLang, t }}>{children}</Ctx.Provider>
 }
 
+// eslint-disable-next-line react-refresh/only-export-components
 export const useT = () => useContext(Ctx)

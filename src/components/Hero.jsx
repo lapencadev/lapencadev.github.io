@@ -24,10 +24,6 @@ export default function Hero() {
   const [activeBadge, setActiveBadge] = useState(0)
 
   useEffect(() => {
-    setActiveBadge(0)
-  }, [badgePhrases[0]])
-
-  useEffect(() => {
     const interval = setInterval(() => {
       setActiveBadge(prev => (prev + 1) % badgePhrases.length)
     }, 1500)

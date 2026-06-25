@@ -78,9 +78,10 @@
     "screenshotsLabel": "View screenshots",
     "gradeLabel": "score",
     "items": [
+      { "desc": "DAM final degree project. Multiplatform restaurant management app: iOS, Android and web." },
+      { "desc": "Personal Android digestive diary app. The official Bristol Stool Scale with a sense of humour, statistics, automatic diagnostics, and two report export modes: medical and friends-edition. Local-first: no tracking, no server data." },
       { "desc": "Website for the choir where I sing as an amateur soprano. Full design and development." },
       { "desc": "App to organise your digital wardrobe. Personal project built with Flutter." },
-      { "desc": "DAM final degree project. Multiplatform restaurant management app: iOS, Android and web." },
       { "desc": "TDD kata in Java. Mars Rover problem implemented with clean architecture, JUnit 5, Maven and JaCoCo coverage." },
       { "desc": "Details made with code and love for my friends' weddings." }
     ]

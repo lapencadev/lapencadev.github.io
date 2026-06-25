@@ -78,9 +78,10 @@
     "screenshotsLabel": "Ver capturas",
     "gradeLabel": "nota",
     "items": [
+      { "desc": "Trabajo de fin de grado del DAM. App de gestión de restaurante multiplataforma: iOS, Android y web." },
+      { "desc": "App Android de diario digestivo personal. La Escala de Bristol oficial con humor, estadísticas, diagnósticos automáticos y exportación de informes en modo médico o «para tus amigos». Local-first: sin tracking, sin datos en servidores." },
       { "desc": "Web del coro donde canto como soprano amateur. Diseño y desarrollo completo de la página." },
       { "desc": "Aplicación para organizar tu armario digital. Proyecto personal en Flutter." },
-      { "desc": "Trabajo de fin de grado del DAM. App de gestión de restaurante multiplataforma: iOS, Android y web." },
       { "desc": "Kata de TDD en Java. Implementación del problema Rover en Marte con arquitectura limpia, JUnit 5, Maven y cobertura con JaCoCo." },
       { "desc": "Detalles hechos con código y cariño para las bodas de mis amigas." }
     ]
