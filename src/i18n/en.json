@@ -28,15 +28,15 @@
     "jobs": [
       {
         "period": "APRIL 2026 — PRESENT",
-        "desc": "Backend microservices for a retail client. Clean architecture, TDD, AI-assisted dev with GitHub Copilot."
+        "desc": "Working at the intersection of software engineering and AI. Building the knowledge layer that lets AI understand a team's architecture and conventions — agent design, prompt engineering, context management."
       },
       {
         "period": "JUNE 2025 — JANUARY 2026",
-        "desc": "Backend Java 17-21. New features on integration microservices, cloud migration, technical debt reduction. Monitoring with Grafana and Datadog."
+        "desc": "Backend microservice features for job integration flows, with unit tests on every feature delivered. Cloud migration, technical debt reduction, monitoring with Grafana and Datadog on Kubernetes."
       },
       {
         "period": "SEPTEMBER 2022 — MAY 2025",
-        "desc": "Backend Java 8–17 + Frontend Angular. SQL migrations with Flyway. Internal Women in Tech bootcamp."
+        "desc": "Backend microservices with Java 8–17 and Spring Boot, plus frontend features in Angular. Flyway migrations on PostgreSQL and Oracle. Agile delivery with CI/CD. Internal Women in Tech bootcamp."
       }
     ]
   },

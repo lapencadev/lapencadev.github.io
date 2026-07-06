@@ -5,17 +5,17 @@ const STATIC = [
   {
     role: 'Custom Software Engineering Analyst',
     company: 'Accenture',
-    chips: ['Java Spring Boot', 'Podman', 'SQL', 'OpenAPI', 'GitHub Copilot'],
+    chips: ['Claude (Anthropic)', 'GitHub Copilot', 'Java Spring Boot', 'Prompt Engineering', 'Agent Architecture'],
   },
   {
-    role: 'Software Developer',
+    role: 'Backend Software Developer',
     company: 'New Work SE | Xing',
     chips: ['Java', 'Kotlin', 'Kubernetes', 'Grafana', 'Datadog'],
   },
   {
     role: 'Fullstack Developer & PPO',
     company: 'Capgemini',
-    chips: ['Java 8-17', 'Angular', 'PostgreSQL', 'Oracle', 'Flyway', 'Jenkins'],
+    chips: ['Java 8-17', 'Spring Boot', 'Angular', 'PostgreSQL', 'Oracle', 'Flyway', 'Jenkins'],
   },
 ]
 
