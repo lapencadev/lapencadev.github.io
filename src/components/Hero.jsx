@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useT } from '../i18n/LanguageContext'
+import cvPdf from '../assets/CV_Raquel-SG.pdf'
 
 export default function Hero() {
   const { t } = useT()
@@ -83,6 +84,13 @@ export default function Hero() {
             onMouseEnter={e => { e.currentTarget.style.background = 'rgba(0,255,229,0.05)'; e.currentTarget.style.transform = 'translateY(-2px)' }}
             onMouseLeave={e => { e.currentTarget.style.background = 'transparent'; e.currentTarget.style.transform = 'none' }}>
             {t('hero.ctaLinks')}
+          </a>
+          <a href={cvPdf} target="_blank" rel="noreferrer"
+            className="inline-flex items-center gap-2 font-mono text-xs font-bold uppercase tracking-wider px-7 py-3.5 rounded-sm transition-all"
+            style={{ color: 'var(--neon-yellow)', border: '1px solid rgba(245,255,0,0.4)' }}
+            onMouseEnter={e => { e.currentTarget.style.background = 'rgba(245,255,0,0.05)'; e.currentTarget.style.transform = 'translateY(-2px)' }}
+            onMouseLeave={e => { e.currentTarget.style.background = 'transparent'; e.currentTarget.style.transform = 'none' }}>
+            {t('hero.ctaCV')}
           </a>
         </div>
       </div>

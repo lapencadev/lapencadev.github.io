@@ -1,6 +1,7 @@
 {
   "nav": {
     "menuLabel": "Open menu",
+    "backToTop": "Back to top",
     "links": {
       "experience": "experience",
       "about": "about",
@@ -19,7 +20,8 @@
     "terminalMotto": "code with an accent",
     "desc": "From <strong class=\"text-white font-medium\">humanities</strong> to <strong class=\"text-white font-medium\">code</strong>, without losing my <strong class=\"text-white font-medium\">Murcian</strong> accent 🍋",
     "ctaTalk": "💬 Let's talk",
-    "ctaLinks": "→ All my links"
+    "ctaLinks": "→ All my links",
+    "ctaCV": "📄 View CV"
   },
   "experience": {
     "sectionLabel": "01 · Experience",

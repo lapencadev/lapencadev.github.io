@@ -1,6 +1,7 @@
 {
   "nav": {
     "menuLabel": "Abrir menú",
+    "backToTop": "Volver arriba",
     "links": {
       "experience": "experiencia",
       "about": "sobre mí",
@@ -19,7 +20,8 @@
     "terminalMotto": "código con acento",
     "desc": "De <strong class=\"text-white font-medium\">letras</strong> a <strong class=\"text-white font-medium\">código</strong>, sin perder el acento <strong class=\"text-white font-medium\">murciano</strong> 🍋",
     "ctaTalk": "💬 Hablemos",
-    "ctaLinks": "→ Todos mis links"
+    "ctaLinks": "→ Todos mis links",
+    "ctaCV": "📄 Ver CV"
   },
   "experience": {
     "sectionLabel": "01 · Experiencia",

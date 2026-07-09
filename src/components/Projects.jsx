@@ -160,7 +160,7 @@ const PROJECTS_STATIC = [
     bannerPosition: 'center',
     tags: ['Flutter', 'Dart', 'Móvil', 'Personal'],
     links: [
-      { label: '↗ Google Play Store soon! (status: only for testers)', },
+      { label: 'Google Play Store', href: 'https://play.google.com/store/apps/details?id=com.lapencadev.cacalogo', icon: 'playstore' },
     ],
     carousel: true,
     slides: cacalogoSlides,
@@ -265,11 +265,19 @@ function ProjectCard({ project, delay }) {
           )}
           {project.links.map(l => (
             <span key={l.href} className="flex items-center gap-2">
-              <a href={l.href} target="_blank" rel="noreferrer"
+              <a href={l.href} target="_blank" rel="noreferrer" title={l.icon === 'playstore' ? 'Descargar en Google Play' : undefined}
                 className="font-mono text-xs transition-colors"
-                style={{ color: 'var(--neon-cyan)' }}
+                style={{ color: 'var(--neon-cyan)', display: 'inline-flex', alignItems: 'center', gap: 6 }}
                 onMouseEnter={e => e.currentTarget.style.color = 'var(--neon-pink)'}
                 onMouseLeave={e => e.currentTarget.style.color = 'var(--neon-cyan)'}>
+                {l.icon === 'playstore' && (
+                  <svg width="15" height="15" viewBox="0 0 512 512" style={{ flexShrink: 0 }}>
+                    <path fill="#00d2ff" d="M32.5 15.5C24 24 20 37 20 53.5v405c0 16.5 4 29.5 12.5 38l2 2L266 267v-3L34.5 13.5z"/>
+                    <path fill="#00f076" d="M343 344.5l-77-77v-3l77-77 1.7 1 91.3 51.9c26 14.8 26 39 0 53.8L344.7 344z"/>
+                    <path fill="#ff3a44" d="M344.7 344l-78.7-78.7L32.5 496.5c8.7 9.2 23 10.3 39.2 1.2L344.7 344"/>
+                    <path fill="#ffcf00" d="M344.7 187.9L71.7 34.3C55.5 25.2 41.2 26.3 32.5 35.5L266 269z"/>
+                  </svg>
+                )}
                 {l.label}
               </a>
               {l.github && (
