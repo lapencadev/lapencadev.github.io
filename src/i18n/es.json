@@ -37,7 +37,7 @@
         "desc": "Nuevas funcionalidades de microservicios backend para flujos de integración de empleo, con tests unitarios en cada entrega. Cloud migration, reducción de deuda técnica, monitorización con Grafana y Datadog sobre Kubernetes."
       },
       {
-        "period": "SEPTIEMBRE 2022 — MAYO 2025",
+        "period": "JUNIO 2022 — MAYO 2025",
         "desc": "Microservicios backend con Java 8–17 y Spring Boot, más frontend con Angular. Migraciones con Flyway en PostgreSQL y Oracle. Entrega Agile con CI/CD. Bootcamp interno Women in Tech."
       }
     ]
@@ -65,10 +65,10 @@
     "disclaimer1": "mi stack principal es Java & Spring Boot",
     "disclaimer2": "mi superpoder es que me gusta toquetear y aprender de todo",
     "cards": [
-      { "title": "Backend",           "skills": ["Java 8–21 (principal)", "Kotlin", "Spring Boot / Spring MVC", "NodeJS · Python", "Microservicios & Clean Architecture"] },
+      { "title": "Backend",           "skills": ["Java 8–17", "Kotlin", "Spring Boot / Spring MVC", "Python", "Microservicios & Clean Architecture"] },
       { "title": "Mobile & Frontend", "skills": ["Flutter / Dart", "Angular · Vue.js", "TypeScript / JavaScript", "HTML / CSS"] },
-      { "title": "Data",              "skills": ["PostgreSQL · MySQL · Oracle", "MongoDB · SQLite", "Snowflake · Flyway", "SQL avanzado"] },
-      { "title": "DevOps & Tools",    "skills": ["Docker / Podman", "Kubernetes · Git · CI/CD", "Grafana · Datadog · Dash0", "Jira · Swagger · Postman", "SonarQube · Figma · Firebase"] },
+      { "title": "Data",              "skills": ["PostgreSQL · MySQL · Oracle", "MongoDB · SQLite", "Flyway", "SQL avanzado"] },
+      { "title": "DevOps & Tools",    "skills": ["Docker", "Kubernetes · Git · CI/CD", "Grafana · Datadog · Dash0", "Jira · Swagger · Postman", "SonarQube · Figma · Firebase"] },
       { "title": "AI Tooling",        "skills": ["Claude", "GitHub Copilot", "Gemini API"] },
       { "title": "Idiomas",           "skills": ["Español — nativa", "Inglés — C1 Trinity College London", "Alemán — A2 EOI", "Francés — A1"] }
     ]

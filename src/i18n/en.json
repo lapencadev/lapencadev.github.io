@@ -37,7 +37,7 @@
         "desc": "Backend microservice features for job integration flows, with unit tests on every feature delivered. Cloud migration, technical debt reduction, monitoring with Grafana and Datadog on Kubernetes."
       },
       {
-        "period": "SEPTEMBER 2022 — MAY 2025",
+        "period": "JUNE 2022 — MAY 2025",
         "desc": "Backend microservices with Java 8–17 and Spring Boot, plus frontend features in Angular. Flyway migrations on PostgreSQL and Oracle. Agile delivery with CI/CD. Internal Women in Tech bootcamp."
       }
     ]
@@ -65,10 +65,10 @@
     "disclaimer1": "my main stack is Java & Spring Boot",
     "disclaimer2": "my superpower is that I love tinkering and learning everything",
     "cards": [
-      { "title": "Backend",           "skills": ["Java 8–21 (primary)", "Kotlin", "Spring Boot / Spring MVC", "NodeJS · Python", "Microservices & Clean Architecture"] },
+      { "title": "Backend",           "skills": ["Java 8–17", "Kotlin", "Spring Boot / Spring MVC", "Python", "Microservices & Clean Architecture"] },
       { "title": "Mobile & Frontend", "skills": ["Flutter / Dart", "Angular · Vue.js", "TypeScript / JavaScript", "HTML / CSS"] },
-      { "title": "Data",              "skills": ["PostgreSQL · MySQL · Oracle", "MongoDB · SQLite", "Snowflake · Flyway", "Advanced SQL"] },
-      { "title": "DevOps & Tools",    "skills": ["Docker / Podman", "Kubernetes · Git · CI/CD", "Grafana · Datadog · Dash0", "Jira · Swagger · Postman", "SonarQube · Figma · Firebase"] },
+      { "title": "Data",              "skills": ["PostgreSQL · MySQL · Oracle", "MongoDB · SQLite", "Flyway", "Advanced SQL"] },
+      { "title": "DevOps & Tools",    "skills": ["Docker", "Kubernetes · Git · CI/CD", "Grafana · Datadog · Dash0", "Jira · Swagger · Postman", "SonarQube · Figma · Firebase"] },
       { "title": "AI Tooling",        "skills": ["Claude", "GitHub Copilot", "Gemini API"] },
       { "title": "Languages",         "skills": ["Spanish — native", "English — C1 Trinity College London", "German — A2 EOI", "French — A1"] }
     ]
