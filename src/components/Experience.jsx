@@ -3,6 +3,11 @@ import { useT } from '../i18n/LanguageContext'
 
 const STATIC = [
   {
+    role: 'Backend Developer',
+    company: 'Tuio',
+    chips: ['Java', 'Spring Boot', 'PostgreSQL', 'Kubernetes', 'TDD', 'Claude', 'Grafana', 'OpenTelemetry', 'Sentry'],
+  },
+  {
     role: 'Custom Software Engineering Analyst',
     company: 'Accenture',
     chips: ['Claude (Anthropic)', 'GitHub Copilot', 'Java Spring Boot', 'Prompt Engineering', 'Agent Architecture'],

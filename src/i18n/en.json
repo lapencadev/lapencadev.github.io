@@ -7,7 +7,7 @@
       "about": "about",
       "skills": "skills",
       "projects": "projects",
-      "talk": "speaker",
+      "talk": "writing",
       "community": "community",
       "contact": "contact"
     }
@@ -29,8 +29,12 @@
     "titleAccent": "Experience",
     "jobs": [
       {
-        "period": "APRIL 2026 — PRESENT",
-        "desc": "Working at the intersection of software engineering and AI. Building the knowledge layer that lets AI understand a team's architecture and conventions — agent design, prompt engineering, context management."
+        "period": "NOVEMBER 2026 — PRESENT",
+        "desc": "Backend at a fully digital insurtech. Building and evolving the insurance core and the services behind the full policy lifecycle: Java + Spring Boot microservices with PostgreSQL on Kubernetes. TDD, code review and AI-assisted development with Claude. Observability with Grafana, OpenTelemetry and Sentry."
+      },
+      {
+        "period": "APRIL 2026 — OCTOBER 2026",
+        "desc": "Worked at the intersection of software engineering and AI. Built the knowledge layer that lets AI understand a team's architecture and conventions — agent design, prompt engineering, context management."
       },
       {
         "period": "JUNE 2025 — JANUARY 2026",
@@ -55,7 +59,7 @@
     ],
     "p1": "I started with <strong class=\"text-white font-medium\">words and human languages</strong>, and ended up migrating to <strong class=\"font-medium\" style=\"color:var(--neon-yellow)\">code and programming languages</strong>. The path wasn't easy — after studying English Philology at university, I spent 6 years in logistics. I broke with my \"previous life\" in 2022 looking for a career change, diving into an intensive Java bootcamp at 30. I loved it and wanted more, so even while working full-time I graduated in the higher degree of Multiplatform Application Development — and that's exactly what makes me different.",
     "p2": "I know what it's like to start from scratch, to know nothing, to feel lost and overwhelmed. The empathy and resilience I've built along the way allow me to put myself in others' shoes and work in teams that foster a supportive, growth-oriented environment.",
-    "p3": "I currently work as a <span style=\"color:var(--neon-cyan)\">Software Engineer</span>, building backend microservices with Java Spring Boot for enterprise clients and implementing AI tools with GitHub Copilot. I started as a Java/Angular fullstack developer and have been specialising in backend.",
+    "p3": "I currently work as a <span style=\"color:var(--neon-cyan)\">Backend Developer</span> at Tuio, a fully digital insurtech, building the insurance core with Java and Spring Boot. I started as a Java/Angular fullstack developer, specialised in backend, and spent a season designing agents and context so AI understands how a team works — now AI is part of my everyday coding.",
     "p4": "In parallel I explore different technologies and build apps with <strong class=\"text-white font-medium\">Flutter</strong>, <span style=\"color:var(--neon-cyan)\">Python</span>, <span style=\"color:var(--neon-yellow)\">Docker</span>, <span style=\"color:var(--neon-purple)\">Observability</span>, <span style=\"color:var(--neon-pink)\">AI tools</span>, <span style=\"color:#8cff82\">Frontend Frameworks</span> and whatever comes my way. In my spare time I sing soprano in the Diatessaron Choir, and I have a theory that devs who embrace the humanities write better code and make better managers."
   },
   "skills": {
@@ -65,11 +69,11 @@
     "disclaimer1": "my main stack is Java & Spring Boot",
     "disclaimer2": "my superpower is that I love tinkering and learning everything",
     "cards": [
-      { "title": "Backend",           "skills": ["Java 8–17", "Kotlin", "Spring Boot / Spring MVC", "Python", "Microservices & Clean Architecture"] },
-      { "title": "Mobile & Frontend", "skills": ["Flutter / Dart", "Angular · Vue.js", "TypeScript / JavaScript", "HTML / CSS"] },
+      { "title": "Backend",           "skills": ["Java 8–17", "Kotlin", "Spring Boot / Spring MVC", "Python · FastAPI", "Microservices · Hexagonal · DDD", "JUnit 5 · Mockito · TDD"] },
+      { "title": "Mobile & Frontend", "skills": ["Flutter / Dart", "Angular · Vue.js · React · Astro", "TypeScript / JavaScript", "HTML / CSS"] },
       { "title": "Data",              "skills": ["PostgreSQL · MySQL · Oracle", "MongoDB · SQLite", "Flyway", "Advanced SQL"] },
-      { "title": "DevOps & Tools",    "skills": ["Docker", "Kubernetes · Git · CI/CD", "Grafana · Datadog · Dash0", "Jira · Swagger · Postman", "SonarQube · Figma · Firebase"] },
-      { "title": "AI Tooling",        "skills": ["Claude", "GitHub Copilot", "Gemini API"] },
+      { "title": "DevOps & Tools",    "skills": ["Docker", "Kubernetes · Git · CI/CD", "Grafana · Datadog · OpenTelemetry · Sentry", "Jira · Swagger · Postman", "SonarQube · Figma · Firebase"] },
+      { "title": "AI Tooling",        "skills": ["Claude · Claude Code", "GitHub Copilot · Gemini API", "Agent architecture", "Prompt engineering · Context management", "NLP with spaCy"] },
       { "title": "Languages",         "skills": ["Spanish — native", "English — C1 Trinity College London", "German — A2 EOI", "French — A1"] }
     ]
   },
@@ -82,19 +86,65 @@
     "items": [
       { "desc": "DAM final degree project. Multiplatform restaurant management app: iOS, Android and web." },
       { "desc": "Personal Android digestive diary app. The official Bristol Stool Scale with a sense of humour, statistics, automatic diagnostics, and two report export modes: medical and friends-edition. Local-first: no tracking, no server data." },
-      { "desc": "Website for the choir where I sing as an amateur soprano. Full design and development." },
+      { "desc": "Website for the choir where I sing as an amateur soprano. Full design and development: a static site built with Astro and Tailwind, with concerts, past programmes, gallery and contact form." },
+      { "desc": "Turns the old tablet in the drawer into an always-on family panel: meals, agenda, tasks, shopping list and weather. Works on 2014 browsers, runs inside Home Assistant OS, and the family edits the lists from Telegram." },
+      { "desc": "Computational linguistics to understand how models \"read\": grammar, morphology and named-entity analysis with spaCy, exposed as a REST API with FastAPI. Where the philologist and the dev shake hands." },
       { "desc": "App to organise your digital wardrobe. Personal project built with Flutter." },
       { "desc": "TDD kata in Java. Mars Rover problem implemented with clean architecture, JUnit 5, Maven and JaCoCo coverage." },
       { "desc": "Details made with code and love for my friends' weddings." }
     ]
   },
   "talk": {
-    "sectionLabel": "05 · Speaker",
-    "titleLine1": "On the",
-    "titleAccent": "Stage",
+    "sectionLabel": "05 · Writing & speaking",
+    "titleLine1": "Things I",
+    "titleAccent": "share",
+    "articlesLabel": "Articles on Medium",
+    "readLabel": "↗ Read on Medium",
+    "allArticles": "→ All my articles at medium.com/@lapencadev",
+    "talkLabel": "Talk",
     "talkDesc": "Philology and programming are more alike than you think. A journey between human languages and machine languages, exploring how learning languages and learning to code share the same cognitive foundations.",
     "ctaFull": "▶ Watch the talk",
-    "ctaShort": "▶ Short version"
+    "ctaShort": "▶ Short version",
+    "articles": [
+      {
+        "title": "Tu primera entrevista de diseño de sistemas: guía básica para no llegar en blanco",
+        "url": "https://medium.com/@lapencadev/tu-primera-entrevista-de-dise%C3%B1o-de-sistemas-gu%C3%ADa-b%C3%A1sica-para-no-llegar-en-blanco-c147df3d6c78",
+        "date": "OCT 2026",
+        "minutes": 12,
+        "lang": "ES",
+        "desc": "What a system design interview is, a seven-step method to approach it and the most common mistakes (mine included): from designing only the happy path to explaining idempotency without nuance.",
+        "tags": [
+          "System design",
+          "Interviews",
+          "Backend"
+        ]
+      },
+      {
+        "title": "Cómo superar (mentalmente) el periodo de prueba",
+        "url": "https://medium.com/@lapencadev/c%C3%B3mo-superar-mentalmente-el-periodo-de-prueba-910888a639bb",
+        "date": "AUG 2026",
+        "minutes": 6,
+        "lang": "ES",
+        "desc": "Almost a monthly diary of what goes through your head during the first months of a new job: the uncertainty, the ups and downs, and how to come out of it with your head in place.",
+        "tags": [
+          "Career",
+          "Mental health",
+          "Onboarding"
+        ]
+      },
+      {
+        "title": "Negativity Bias: Finding Balance in Error Management",
+        "url": "https://medium.com/@lapencadev/negativity-bias-finding-balance-in-error-management-3b5331103388",
+        "date": "JAN 2026",
+        "minutes": 4,
+        "desc": "We're paid to find bugs, but that mindset shouldn't be applied to people. On legacy code, blame culture vs. learning culture, and refactoring our attitude.",
+        "tags": [
+          "Teams",
+          "Culture",
+          "Growth"
+        ]
+      }
+    ]
   },
   "community": {
     "sectionLabel": "06 · Community",
@@ -111,13 +161,7 @@
         "title": "Soprano",
         "desc": "Code is my daytime language, but music is the language of the soul. I sing soprano in the Diatessaron Choir.",
         "badge": "Diatessaron Choir",
-        "linkLabel": "↗ corodiatessaron.netlify.app"
-      },
-      {
-        "title": "I write on Medium",
-        "desc": "Reflections on development, humanities and life as a career-changer dev.",
-        "badge": "Blog",
-        "linkLabel": "↗ medium.com/@lapencadev"
+        "linkLabel": "↗ corodiatessaron.es"
       },
       {
         "title": "Press",

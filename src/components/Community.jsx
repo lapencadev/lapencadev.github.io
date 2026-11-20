@@ -3,11 +3,10 @@ import { useT } from '../i18n/LanguageContext'
 
 const ITEM_LINKS = [
   'https://step4ward.notion.site/4897f8a94986431aaef76bbaa616166e?v=d058f7ede6444d1b93a699984b9c94f6&p=9ff9656e45be4afca8e53fbec238bc81&pm=c',
-  'https://corodiatessaron.netlify.app',
-  'https://medium.com/@lapencadev',
+  'https://corodiatessaron.es',
   'https://mancomun.gal/ficha/mulleres-en-tech-raquel-sanchez/',
 ]
-const ITEM_ICONS = ['💜', '🎵', '✍️', '📰']
+const ITEM_ICONS = ['💜', '🎵', '📰']
 
 function CommCard({ item, icon, href, delay }) {
   const ref = useReveal()

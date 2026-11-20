@@ -8,8 +8,9 @@
 
 ## Stack
 
-- React 18 + Vite
+- React 19 + Vite
 - Tailwind CSS 3
+- i18n casero (ES / EN) en `src/i18n`
 - GitHub Pages — deploy automático desde `main`
 
 ---
@@ -18,13 +19,14 @@
 
 | Sección | Contenido |
 |---|---|
-| Hero | Presentación con terminal animada |
-| About | Timeline de experiencia |
-| Skills | Cards con tecnologías |
-| Projects | Proyectos destacados |
-| Talk | Charlas |
-| Community | Actividad en comunidad |
-| Contact | Datos de contacto |
+| Hero | Presentación con terminal animada y enlace al CV |
+| Experiencia | Timeline de experiencia laboral |
+| Sobre mí | De la filología al código |
+| Proyectos | Proyectos destacados, con capturas |
+| Habilidades | Cards con tecnologías e idiomas |
+| Speaker | Charla en T3chFest |
+| Comunidad | Step4ward, coro, Medium y prensa |
+| Contacto | Datos de contacto |
 
 ---
 

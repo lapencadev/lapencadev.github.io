@@ -137,7 +137,19 @@ const TAG_COLORS = {
   'Personal':        { color: '#f5ff00', bg: 'rgba(245,255,0,0.07)',  border: 'rgba(245,255,0,0.25)'   },
   'TDD':             { color: '#7b9eff', bg: 'rgba(123,158,255,0.07)',border: 'rgba(123,158,255,0.25)' },
   'Maven':           { color: '#b44fff', bg: 'rgba(180,79,255,0.07)', border: 'rgba(180,79,255,0.25)'  },
+  'Python':          { color: '#4db8ff', bg: 'rgba(77,184,255,0.07)',  border: 'rgba(77,184,255,0.25)'  },
+  'Home Assistant':  { color: '#00ffe5', bg: 'rgba(0,255,229,0.07)',   border: 'rgba(0,255,229,0.25)'   },
+  'Telegram':        { color: '#7b9eff', bg: 'rgba(123,158,255,0.07)',border: 'rgba(123,158,255,0.25)' },
+  'NLP':             { color: '#ff2d78', bg: 'rgba(255,45,120,0.07)', border: 'rgba(255,45,120,0.25)'  },
+  'FastAPI':         { color: '#8cff82', bg: 'rgba(140,255,130,0.07)',border: 'rgba(140,255,130,0.25)' },
+  'Astro':           { color: '#ff6b2b', bg: 'rgba(255,107,43,0.07)', border: 'rgba(255,107,43,0.25)'  },
 }
+
+const EmojiIcon = ({ emoji, glow, label }) => (
+  <div role="img" aria-label={label} style={{ width: 52, height: 52, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 26, marginBottom: 16, borderRadius: '50%', background: '#11101a', boxShadow: `0 0 15px ${glow}` }}>
+    {emoji}
+  </div>
+)
 
 const PROJECTS_STATIC = [
   {
@@ -170,10 +182,26 @@ const PROJECTS_STATIC = [
     title: 'Coro Diatessaron',
     banner: bannerDiatessaron,
     bannerPosition: 'center',
-    tags: ['Web', 'Música'],
+    tags: ['Astro', 'Web', 'Música'],
     links: [
-      { label: '↗ Live', href: 'https://corodiatessaron.netlify.app' },
+      { label: '↗ Live', href: 'https://corodiatessaron.es' },
       { label: '↗ GitHub', href: 'https://github.com/lapencadev/Diatessaron' },
+    ],
+  },
+  {
+    icon: <EmojiIcon emoji="📟" glow="rgba(0,255,229,0.35)" label="Old Tablet Dashboard" />,
+    title: 'Old Tablet Dashboard',
+    tags: ['Python', 'Home Assistant', 'Telegram', 'Personal'],
+    links: [
+      { label: '↗ GitHub', href: 'https://github.com/lapencadev/old-tablet-dashboard' },
+    ],
+  },
+  {
+    icon: <EmojiIcon emoji="🔤" glow="rgba(255,45,120,0.35)" label="Prompt Engineering" />,
+    title: 'Prompt Engineering · NLP',
+    tags: ['Python', 'NLP', 'FastAPI'],
+    links: [
+      { label: '↗ GitHub', href: 'https://github.com/lapencadev/prompt-engineering' },
     ],
   },
   {
