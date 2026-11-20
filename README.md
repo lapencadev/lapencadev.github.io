@@ -1,6 +1,6 @@
 # Raquel Sánchez Guirado - Software Engineer
 
-> Dark mode, cursores neon, iconos flotantes y mucho amor tech
+> Un cuaderno de filóloga con entradas de diccionario, subrayador fosforito, iconos flotantes y mucho amor tech
 
 **[Enlace al portfolio](https://lapencadev.github.io/)**
 
@@ -11,6 +11,8 @@
 - React 19 + Vite
 - Tailwind CSS 3
 - i18n casero (ES / EN) en `src/i18n`
+- Modo claro (cuaderno) y oscuro (diccionario nocturno): sigue al sistema y se puede cambiar a mano
+- Tipografías: Fraunces, DM Sans, Space Mono y Noto Serif (AFI y étimos)
 - GitHub Pages — deploy automático desde `main`
 
 ---
@@ -19,13 +21,13 @@
 
 | Sección | Contenido |
 |---|---|
-| Hero | Presentación con terminal animada y enlace al CV |
+| Hero | Entrada de diccionario: transcripción fonética y acepciones |
 | Experiencia | Timeline de experiencia laboral |
 | Sobre mí | De la filología al código |
 | Proyectos | Proyectos destacados, con capturas |
 | Habilidades | Cards con tecnologías e idiomas |
-| Speaker | Charla en T3chFest |
-| Comunidad | Step4ward, coro, Medium y prensa |
+| Escribir | Artículos en Medium y charla en T3chFest |
+| Comunidad | Step4ward, coro y prensa |
 | Contacto | Datos de contacto |
 
 ---

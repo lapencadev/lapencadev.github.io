@@ -1,5 +1,4 @@
 import { LanguageProvider } from './i18n/LanguageContext'
-import Cursor from './components/Cursor'
 import DecoIcons from './components/DecoIcons'
 import Nav from './components/Nav'
 import Hero from './components/Hero'
@@ -16,7 +15,6 @@ import BackToTop from './components/BackToTop'
 export default function App() {
   return (
     <LanguageProvider>
-      <Cursor />
       <DecoIcons />
       <Nav />
       <main>

@@ -1,4 +1,4 @@
-import { createContext, useContext, useState } from 'react'
+import { createContext, useContext, useEffect, useState } from 'react'
 import es from './es.json'
 import en from './en.json'
 
@@ -7,6 +7,9 @@ const Ctx = createContext(null)
 
 export function LanguageProvider({ children }) {
   const [lang, setLang] = useState('es')
+
+  // Mantiene <html lang> al día: lectores de pantalla y separación silábica
+  useEffect(() => { document.documentElement.lang = lang }, [lang])
 
   const t = key => {
     const keys = key.split('.')

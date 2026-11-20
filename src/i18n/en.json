@@ -2,109 +2,279 @@
   "nav": {
     "menuLabel": "Open menu",
     "backToTop": "Back to top",
+    "themeToDark": "Switch to dark mode",
+    "themeToLight": "Switch to light mode",
+    "langLabel": "Leer en español",
     "links": {
-      "experience": "experience",
-      "about": "about",
-      "skills": "skills",
-      "projects": "projects",
-      "talk": "writing",
-      "community": "community",
-      "contact": "contact"
+      "experience": "work",
+      "about": "be",
+      "projects": "build",
+      "skills": "know",
+      "talk": "write",
+      "community": "share",
+      "contact": "talk"
     }
   },
   "hero": {
-    "badges": ["Love to speak", "Mentor", "Soprano", "A bit of everything"],
-    "extras": ["speaker", "mentor", "soprano"],
-    "stackMore": "& more",
-    "terminalBackground": "Philologist → Dev",
-    "terminalMotto": "code with an accent",
-    "desc": "From <strong class=\"text-white font-medium\">humanities</strong> to <strong class=\"text-white font-medium\">code</strong>, without losing my <strong class=\"text-white font-medium\">Murcian</strong> accent 🍋",
-    "ctaTalk": "💬 Let's talk",
-    "ctaLinks": "→ All my links",
-    "ctaCV": "📄 View CV"
+    "first": "Raquel",
+    "rest": "Sánchez Guirado",
+    "ipa": "/raˈkel ˈsantʃeθ ɡiˈɾado/",
+    "gram": "proper noun.",
+    "place": "Murcia, Spain.",
+    "senses": [
+      {
+        "c": "pink",
+        "abbr": "Comput.",
+        "html": "<mark class=\"p\">Backend developer</mark> at Tuio."
+      },
+      {
+        "c": "yellow",
+        "abbr": "Philol.",
+        "html": "English philologist turned programmer in 2022."
+      },
+      {
+        "c": "purple",
+        "abbr": "",
+        "html": "Mentor at <mark class=\"v\">Step4ward</mark>."
+      },
+      {
+        "c": "cyan",
+        "abbr": "Mus.",
+        "html": "Soprano in the Diatessaron Choir."
+      }
+    ],
+    "margin": [
+      [
+        "now",
+        "Tuio"
+      ],
+      [
+        "stack",
+        "Java · Spring Boot"
+      ],
+      [
+        "tinkering with",
+        "Flutter · Python"
+      ],
+      [
+        "from",
+        "Murcia 🍋"
+      ]
+    ],
+    "ctaTalk": "Let’s talk",
+    "ctaCV": "View CV",
+    "ctaLinks": "All my links ↗"
+  },
+  "words": {
+    "experience": {
+      "n": "01",
+      "word": "work",
+      "etym": "(Old English <span class=\"etymon\">wyrcan</span>)",
+      "gram": "v.",
+      "gloss": "Work experience."
+    },
+    "about": {
+      "n": "02",
+      "word": "be",
+      "etym": "(Old English <span class=\"etymon\">bēon</span>)",
+      "gram": "v.",
+      "gloss": "Where I come from."
+    },
+    "projects": {
+      "n": "03",
+      "word": "build",
+      "etym": "(Old English <span class=\"etymon\">byldan</span>)",
+      "gram": "v.",
+      "gloss": "Projects, mostly built to learn."
+    },
+    "skills": {
+      "n": "04",
+      "word": "know",
+      "etym": "(Old English <span class=\"etymon\">cnāwan</span>)",
+      "gram": "v.",
+      "gloss": "What I work with and what I tinker with."
+    },
+    "talk": {
+      "n": "05",
+      "word": "write",
+      "etym": "(Old English <span class=\"etymon\">wrītan</span>)",
+      "gram": "v.",
+      "gloss": "Articles on Medium and one talk."
+    },
+    "community": {
+      "n": "06",
+      "word": "share",
+      "etym": "(from Old English <span class=\"etymon\">scearu</span> ‘division’)",
+      "gram": "v.",
+      "gloss": "Beyond the code."
+    },
+    "contact": {
+      "n": "07",
+      "word": "talk",
+      "etym": "(Middle English <span class=\"etymon\">talken</span>)",
+      "gram": "v.",
+      "gloss": "What do you have in mind? Coming to say hi?"
+    }
   },
   "experience": {
-    "sectionLabel": "01 · Experience",
-    "title": "Work",
-    "titleAccent": "Experience",
     "jobs": [
       {
-        "period": "NOVEMBER 2026 — PRESENT",
+        "period": "Nov 2026 – present",
         "desc": "Backend at a fully digital insurtech. Building and evolving the insurance core and the services behind the full policy lifecycle: Java + Spring Boot microservices with PostgreSQL on Kubernetes. TDD, code review and AI-assisted development with Claude. Observability with Grafana, OpenTelemetry and Sentry."
       },
       {
-        "period": "APRIL 2026 — OCTOBER 2026",
+        "period": "Apr 2026 – Oct 2026",
         "desc": "Worked at the intersection of software engineering and AI. Built the knowledge layer that lets AI understand a team's architecture and conventions — agent design, prompt engineering, context management."
       },
       {
-        "period": "JUNE 2025 — JANUARY 2026",
+        "period": "Jun 2025 – Jan 2026",
         "desc": "Backend microservice features for job integration flows, with unit tests on every feature delivered. Cloud migration, technical debt reduction, monitoring with Grafana and Datadog on Kubernetes."
       },
       {
-        "period": "JUNE 2022 — MAY 2025",
+        "period": "Jun 2022 – May 2025",
         "desc": "Backend microservices with Java 8–17 and Spring Boot, plus frontend features in Angular. Flyway migrations on PostgreSQL and Oracle. Agile delivery with CI/CD. Internal Women in Tech bootcamp."
       }
     ]
   },
   "about": {
-    "sectionLabel": "02 · About",
-    "title": "Words",
-    "titleAccentPrefix": "",
-    "titleAccent": "compile",
-    "sidebar": [
-      "English Philology · UMU",
-      "DAM · IES Los Albares",
-      "Backend Dev · Java & Spring Boot",
-      "Step4ward · Mentor & Community"
+    "margin": [
+      [
+        "studied",
+        "English Philology · UMU"
+      ],
+      [
+        "then",
+        "DAM · IES Los Albares"
+      ],
+      [
+        "today",
+        "Backend · Java & Spring Boot"
+      ],
+      [
+        "also",
+        "Step4ward · mentor"
+      ]
     ],
-    "p1": "I started with <strong class=\"text-white font-medium\">words and human languages</strong>, and ended up migrating to <strong class=\"font-medium\" style=\"color:var(--neon-yellow)\">code and programming languages</strong>. The path wasn't easy — after studying English Philology at university, I spent 6 years in logistics. I broke with my \"previous life\" in 2022 looking for a career change, diving into an intensive Java bootcamp at 30. I loved it and wanted more, so even while working full-time I graduated in the higher degree of Multiplatform Application Development — and that's exactly what makes me different.",
-    "p2": "I know what it's like to start from scratch, to know nothing, to feel lost and overwhelmed. The empathy and resilience I've built along the way allow me to put myself in others' shoes and work in teams that foster a supportive, growth-oriented environment.",
-    "p3": "I currently work as a <span style=\"color:var(--neon-cyan)\">Backend Developer</span> at Tuio, a fully digital insurtech, building the insurance core with Java and Spring Boot. I started as a Java/Angular fullstack developer, specialised in backend, and spent a season designing agents and context so AI understands how a team works — now AI is part of my everyday coding.",
-    "p4": "In parallel I explore different technologies and build apps with <strong class=\"text-white font-medium\">Flutter</strong>, <span style=\"color:var(--neon-cyan)\">Python</span>, <span style=\"color:var(--neon-yellow)\">Docker</span>, <span style=\"color:var(--neon-purple)\">Observability</span>, <span style=\"color:var(--neon-pink)\">AI tools</span>, <span style=\"color:#8cff82\">Frontend Frameworks</span> and whatever comes my way. In my spare time I sing soprano in the Diatessaron Choir, and I have a theory that devs who embrace the humanities write better code and make better managers."
+    "p1": "I started with <mark class=\"y\">words and human languages</mark> and ended up migrating to <mark class=\"c\">code and programming languages</mark>. The path wasn’t easy: after studying English Philology I spent six years in logistics, and in 2022, at 30, I broke with my “previous life” and dove into a Java bootcamp. I loved it and wanted more, so while working I also took the higher vocational degree in Multiplatform Application Development.",
+    "p2": "And now, with AI, natural language turns out to be a way of programming again: a good part of the job is explaining precisely what you want, giving an agent the right context and reviewing what it returns with a critical eye. That’s where <mark class=\"v\">the philologist and the dev help each other out</mark>.",
+    "p3": "I currently work as a <mark class=\"p\">Backend Developer</mark> at Tuio, a fully digital insurtech, on the insurance core with Java and Spring Boot. I started as a Java/Angular fullstack developer, moved towards backend, and spent a while designing agents and context so AI could understand how a team works.",
+    "p4": "I know what it’s like to start from scratch and feel lost, and it has made me more patient with others and with myself. Outside work I build small projects to learn, sing in the Diatessaron Choir and write on Medium when I have something to say."
   },
   "skills": {
-    "sectionLabel": "04 · Skills",
-    "title": "Stack &",
-    "titleAccent": "Superpowers",
+    "disclaimerLabel": "// disclaimer",
     "disclaimer1": "my main stack is Java & Spring Boot",
-    "disclaimer2": "my superpower is that I love tinkering and learning everything",
+    "disclaimer2": "the rest I’ve used at work or in a project, or I’m still learning it",
     "cards": [
-      { "title": "Backend",           "skills": ["Java 8–17", "Kotlin", "Spring Boot / Spring MVC", "Python · FastAPI", "Microservices · Hexagonal · DDD", "JUnit 5 · Mockito · TDD"] },
-      { "title": "Mobile & Frontend", "skills": ["Flutter / Dart", "Angular · Vue.js · React · Astro", "TypeScript / JavaScript", "HTML / CSS"] },
-      { "title": "Data",              "skills": ["PostgreSQL · MySQL · Oracle", "MongoDB · SQLite", "Flyway", "Advanced SQL"] },
-      { "title": "DevOps & Tools",    "skills": ["Docker", "Kubernetes · Git · CI/CD", "Grafana · Datadog · OpenTelemetry · Sentry", "Jira · Swagger · Postman", "SonarQube · Figma · Firebase"] },
-      { "title": "AI Tooling",        "skills": ["Claude · Claude Code", "GitHub Copilot · Gemini API", "Agent architecture", "Prompt engineering · Context management", "NLP with spaCy"] },
-      { "title": "Languages",         "skills": ["Spanish — native", "English — C1 Trinity College London", "German — A2 EOI", "French — A1"] }
+      {
+        "title": "Backend",
+        "skills": [
+          "Java 8–17",
+          "Spring Boot / Spring MVC",
+          "Microservices · Clean Architecture",
+          "JUnit 5 · Mockito · TDD",
+          "Kotlin · Python"
+        ]
+      },
+      {
+        "title": "Mobile & Frontend",
+        "skills": [
+          "Flutter / Dart",
+          "Angular · Vue.js · Astro",
+          "TypeScript / JavaScript",
+          "HTML / CSS"
+        ]
+      },
+      {
+        "title": "Data",
+        "skills": [
+          "PostgreSQL · MySQL · Oracle",
+          "MongoDB · SQLite",
+          "Flyway"
+        ]
+      },
+      {
+        "title": "DevOps & Tools",
+        "skills": [
+          "Docker · Kubernetes",
+          "Git · CI/CD",
+          "Grafana · Datadog · Dash0",
+          "OpenTelemetry · Sentry",
+          "Jira · Swagger · Postman",
+          "SonarQube · Figma · Firebase"
+        ]
+      },
+      {
+        "title": "AI day to day",
+        "skills": [
+          "Claude · Claude Code",
+          "GitHub Copilot · Gemini API",
+          "Agent and context design"
+        ]
+      },
+      {
+        "title": "Languages",
+        "skills": [
+          "Spanish — native",
+          "English — C1 Trinity College London",
+          "German — A2 EOI",
+          "French — A1"
+        ]
+      }
     ]
   },
   "projects": {
-    "sectionLabel": "03 · Projects",
-    "title": "What I",
-    "titleAccent": "build",
     "screenshotsLabel": "View screenshots",
     "gradeLabel": "score",
-    "items": [
-      { "desc": "DAM final degree project. Multiplatform restaurant management app: iOS, Android and web." },
-      { "desc": "Personal Android digestive diary app. The official Bristol Stool Scale with a sense of humour, statistics, automatic diagnostics, and two report export modes: medical and friends-edition. Local-first: no tracking, no server data." },
-      { "desc": "Website for the choir where I sing as an amateur soprano. Full design and development: a static site built with Astro and Tailwind, with concerts, past programmes, gallery and contact form." },
-      { "desc": "Turns the old tablet in the drawer into an always-on family panel: meals, agenda, tasks, shopping list and weather. Works on 2014 browsers, runs inside Home Assistant OS, and the family edits the lists from Telegram." },
-      { "desc": "Computational linguistics to understand how models \"read\": grammar, morphology and named-entity analysis with spaCy, exposed as a REST API with FastAPI. Where the philologist and the dev shake hands." },
-      { "desc": "App to organise your digital wardrobe. Personal project built with Flutter." },
-      { "desc": "TDD kata in Java. Mars Rover problem implemented with clean architecture, JUnit 5, Maven and JaCoCo coverage." },
-      { "desc": "Details made with code and love for my friends' weddings." }
+    "items": {
+      "tablet": {
+        "desc": "Turns the old tablet in the drawer into an always-on family panel: meals, agenda, tasks, shopping list and weather. Works on 2014 browsers, runs inside Home Assistant OS, and the family edits the lists from Telegram."
+      },
+      "sabrosapp": {
+        "desc": "DAM final degree project. Multiplatform restaurant management app: iOS, Android and web."
+      },
+      "cacalogo": {
+        "desc": "Personal Android digestive diary app. The official Bristol Stool Scale with a sense of humour, statistics, automatic diagnostics, and two report export modes: medical and friends-edition. Local-first: no tracking, no server data."
+      },
+      "diatessaron": {
+        "desc": "Website for the choir where I sing as an amateur soprano: concerts, past programmes, gallery and contact form. A static site built with Astro and Tailwind."
+      },
+      "nlp": {
+        "desc": "A practice repo to learn some computational linguistics: a script that analyses parts of speech, morphology and named entities with spaCy, plus a small FastAPI API."
+      },
+      "closet": {
+        "desc": "App to organise your digital wardrobe. Personal project built with Flutter."
+      },
+      "kata": {
+        "desc": "TDD kata in Java. Mars Rover problem implemented with clean architecture, JUnit 5, Maven and JaCoCo coverage."
+      },
+      "bodas": {
+        "desc": "Two simple countdown sites for two friends’ weddings. The weddings have happened, but I keep them as a memento 💍"
+      }
+    },
+    "close": "Close",
+    "prev": "Previous",
+    "next": "Next",
+    "repo": "View repository",
+    "play": "Get it on Google Play",
+    "tabletSlides": [
+      "Panel",
+      "Meal detail",
+      "Long lists",
+      "Night mode",
+      "Month calendar",
+      "Week calendar",
+      "Work timer",
+      "Shopping list"
     ]
   },
   "talk": {
-    "sectionLabel": "05 · Writing & speaking",
-    "titleLine1": "Things I",
-    "titleAccent": "share",
     "articlesLabel": "Articles on Medium",
     "readLabel": "↗ Read on Medium",
     "allArticles": "→ All my articles at medium.com/@lapencadev",
     "talkLabel": "Talk",
     "talkDesc": "Philology and programming are more alike than you think. A journey between human languages and machine languages, exploring how learning languages and learning to code share the same cognitive foundations.",
-    "ctaFull": "▶ Watch the talk",
-    "ctaShort": "▶ Short version",
+    "ctaFull": "Watch the talk",
+    "ctaShort": "Short version",
     "articles": [
       {
         "title": "Tu primera entrevista de diseño de sistemas: guía básica para no llegar en blanco",
@@ -147,35 +317,29 @@
     ]
   },
   "community": {
-    "sectionLabel": "06 · Community",
-    "title": "Beyond",
-    "titleAccent": "the code",
     "items": [
       {
         "title": "Step4ward",
         "desc": "Community of women in tech. Mentoring, event organisation and visibility of female talent in the industry.",
         "badge": "Mentor & Organiser",
-        "linkLabel": "↗ My Step4ward profile"
+        "linkLabel": "My Step4ward profile ↗"
       },
       {
         "title": "Soprano",
         "desc": "Code is my daytime language, but music is the language of the soul. I sing soprano in the Diatessaron Choir.",
         "badge": "Diatessaron Choir",
-        "linkLabel": "↗ corodiatessaron.es"
+        "linkLabel": "corodiatessaron.es ↗"
       },
       {
         "title": "Press",
         "desc": "Interview on Mulleres en Tech about my journey from humanities to programming.",
         "badge": "Mulleres en Tech",
-        "linkLabel": "↗ Read the interview"
+        "linkLabel": "Read the interview ↗"
       }
     ]
   },
   "contact": {
-    "headlinePre": "",
-    "headlineAccent": "TALK",
-    "headlinePost": "",
-    "subtitle": "What do you have in mind?\nComing to say hi?"
+    "headline": "Let’s <mark class=\"p\">talk</mark>"
   },
   "footer": {
     "copy": "© 2026 · made with ♥ and my besties Copilotina & Claudio"
