@@ -1,0 +1,20 @@
+version: 2
+updates:
+  # Dependencias npm: una PR agrupada al mes (las de seguridad llegan en cuanto salen)
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: monthly
+    groups:
+      npm-minor-patch:
+        update-types: [minor, patch]
+    ignore:
+      # Tailwind 4 es una migración aparte, no una actualización automática
+      - dependency-name: tailwindcss
+        update-types: [version-update:semver-major]
+
+  # Versiones de las GitHub Actions del workflow de despliegue
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly

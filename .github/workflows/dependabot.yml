@@ -1,0 +1,47 @@
+name: Dependabot
+
+# Comprueba cada PR (lint + build) y, si es de Dependabot y no es un salto de versión mayor,
+# la fusiona sola y lanza el despliegue. Las mayores se quedan abiertas para revisarlas a mano.
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          cache: 'npm'
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run build
+
+  automerge:
+    needs: ci
+    if: github.event.pull_request.user.login == 'dependabot[bot]' && github.repository == 'lapencadev/lapencadev.github.io'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      actions: write
+    steps:
+      - id: meta
+        uses: dependabot/fetch-metadata@v3
+
+      - name: Fusionar (parches, menores y correcciones de seguridad no mayores)
+        if: steps.meta.outputs.update-type != 'version-update:semver-major'
+        run: |
+          gh pr merge "$PR" --squash --delete-branch
+          # Un merge hecho con GITHUB_TOKEN no dispara el push a main, así que lanzamos el despliegue a mano
+          gh workflow run deploy.yml --ref main
+        env:
+          PR: ${{ github.event.pull_request.html_url }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
