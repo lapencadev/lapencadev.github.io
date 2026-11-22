@@ -12,8 +12,8 @@ export default function About() {
       <WordHeading id="about" />
       <div ref={ref} className="reveal about">
         <div className="about-text">
-          {['p1', 'p2', 'p3', 'p4'].map(p => (
-            <p key={p} dangerouslySetInnerHTML={{ __html: t(`about.${p}`) }} />
+          {t('about.paragraphs').map((html, i) => (
+            <p key={i} dangerouslySetInnerHTML={{ __html: html }} />
           ))}
         </div>
         <aside className="margin-note about-margin">

@@ -60,7 +60,6 @@ export default function Talk() {
           <p>{t('talk.talkDesc')}</p>
           <div className="talk-cta">
             <a className="btn btn-primary" href="https://www.youtube.com/watch?v=svDcFqw7h0c" target="_blank" rel="noreferrer">▶ {t('talk.ctaFull')}</a>
-            <a className="btn btn-ghost" href="https://youtu.be/n5DYBP7rtJc" target="_blank" rel="noreferrer">▶ {t('talk.ctaShort')}</a>
           </div>
         </div>
       </div>

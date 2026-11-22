@@ -20,7 +20,7 @@
     "rest": "Sánchez Guirado",
     "ipa": "/raˈkel ˈsantʃeθ ɡiˈɾado/",
     "gram": "proper noun.",
-    "place": "Murcia, Spain.",
+    "place": "Northwest Murcia 🍋, Spain",
     "senses": [
       {
         "c": "pink",
@@ -30,12 +30,12 @@
       {
         "c": "yellow",
         "abbr": "Philol.",
-        "html": "English philologist turned programmer in 2022."
+        "html": "From English philology and logistics to tech in 2022."
       },
       {
         "c": "purple",
         "abbr": "",
-        "html": "Mentor at <mark class=\"v\">Step4ward</mark>."
+        "html": "Mentor at <a class=\"sense-link\" href=\"https://step4ward.es\" target=\"_blank\" rel=\"noreferrer\"><mark class=\"v\">Step4ward</mark></a>."
       },
       {
         "c": "cyan",
@@ -43,27 +43,9 @@
         "html": "Soprano in the Diatessaron Choir."
       }
     ],
-    "margin": [
-      [
-        "now",
-        "Tuio"
-      ],
-      [
-        "stack",
-        "Java · Spring Boot"
-      ],
-      [
-        "tinkering with",
-        "Flutter · Python"
-      ],
-      [
-        "from",
-        "Murcia 🍋"
-      ]
-    ],
     "ctaTalk": "Let’s talk",
-    "ctaCV": "View CV",
-    "ctaLinks": "All my links ↗"
+    "ctaLinks": "All my links ↗",
+    "ctaLinkedIn": "LinkedIn ↗"
   },
   "words": {
     "experience": {
@@ -85,7 +67,7 @@
       "word": "build",
       "etym": "(Old English <span class=\"etymon\">byldan</span>)",
       "gram": "v.",
-      "gloss": "Projects, mostly built to learn."
+      "gloss": "Projects to practise, learn, grow and share."
     },
     "skills": {
       "n": "04",
@@ -113,7 +95,7 @@
       "word": "talk",
       "etym": "(Middle English <span class=\"etymon\">talken</span>)",
       "gram": "v.",
-      "gloss": "What do you have in mind? Coming to say hi?"
+      "gloss": "Proposals? Hellos? A virtual coffee? Anything at all?"
     }
   },
   "experience": {
@@ -155,15 +137,18 @@
         "Step4ward · mentor"
       ]
     ],
-    "p1": "I started with <mark class=\"y\">words and human languages</mark> and ended up migrating to <mark class=\"c\">code and programming languages</mark>. The path wasn’t easy: after studying English Philology I spent six years in logistics, and in 2022, at 30, I broke with my “previous life” and dove into a Java bootcamp. I loved it and wanted more, so while working I also took the higher vocational degree in Multiplatform Application Development.",
-    "p2": "And now, with AI, natural language turns out to be a way of programming again: a good part of the job is explaining precisely what you want, giving an agent the right context and reviewing what it returns with a critical eye. That’s where <mark class=\"v\">the philologist and the dev help each other out</mark>.",
-    "p3": "I currently work as a <mark class=\"p\">Backend Developer</mark> at Tuio, a fully digital insurtech, on the insurance core with Java and Spring Boot. I started as a Java/Angular fullstack developer, moved towards backend, and spent a while designing agents and context so AI could understand how a team works.",
-    "p4": "I know what it’s like to start from scratch and feel lost, and it has made me more patient with others and with myself. Outside work I build small projects to learn, sing in the Diatessaron Choir and write on Medium when I have something to say."
+    "paragraphs": [
+      "Deep down, I’ve always been a <mark class=\"y\">fan of languages</mark> and of all the different ways we humans communicate. Technology drew me in too, and one way or another I kept trying to get closer to it, but I was scared enough to shake something that’s already hard: making decisions before you’re even 18.",
+      "My first job was at an electronics shop and I was happy there (except when customers weren’t so nice, of course). I loved being surrounded by gadgets and helping people set up their new phones, even if it wasn’t part of my job. I’d look at those Android menus and think, “I’d love to know how to build this”, but it felt so far away… Then I spent six years in logistics, because I had to make a living. It wasn’t for me: I could have stayed in that sector forever, but at what cost?",
+      "Today I work as a <mark class=\"p\">Backend Developer</mark> at a fully digital insurtech, with really lovely people. Ten years ago I didn’t see it coming, and maybe not even in 2022, when I left everything behind for a Java bootcamp in a pretty tough transition. In my years in tech I’ve been a fullstack dev, a proxy product owner and a bit of a jack of all trades, and I’m sure this world is where I belong: I’ve learned a lot and keep learning every day, both in and out of working hours.",
+      "AI burst in like a bull in a china shop while I was busy surviving between work and my higher vocational degree in Multiplatform Application Development. Things are changing faster and faster, at a dizzying pace. My humanities self and my tech self have always gone hand in hand one way or another, and now they may be <mark class=\"v\">more intertwined than ever</mark>.",
+      "I know what it’s like to start from scratch and feel lost, and it has made me more patient with others and with myself. That’s why I try to share what I learn and discover along the way: to make the time I put into it count, to stand up to impostor syndrome every day and, above all, to support and empower other women in tech, whether through the Step4ward community, my ramblings on Twitter, more useful stuff on Medium or the talk I gave at T3chFest in 2024."
+    ]
   },
   "skills": {
     "disclaimerLabel": "// disclaimer",
     "disclaimer1": "my main stack is Java & Spring Boot",
-    "disclaimer2": "the rest I’ve used at work or in a project, or I’m still learning it",
+    "disclaimer2": "I’ve dabbled in lots of things because I love learning, but that doesn’t make me an expert in all of them",
     "cards": [
       {
         "title": "Backend",
@@ -236,13 +221,13 @@
         "desc": "Personal Android digestive diary app. The official Bristol Stool Scale with a sense of humour, statistics, automatic diagnostics, and two report export modes: medical and friends-edition. Local-first: no tracking, no server data."
       },
       "diatessaron": {
-        "desc": "Website for the choir where I sing as an amateur soprano: concerts, past programmes, gallery and contact form. A static site built with Astro and Tailwind."
+        "desc": "Website for my choir, which keeps me going in my free time: concerts, past programmes, gallery and contact form. A static site built with Astro and Tailwind."
       },
       "nlp": {
         "desc": "A practice repo to learn some computational linguistics: a script that analyses parts of speech, morphology and named entities with spaCy, plus a small FastAPI API."
       },
       "closet": {
-        "desc": "App to organise your digital wardrobe. Personal project built with Flutter."
+        "desc": "App to organise your digital wardrobe. A personal Flutter project I never finished in time, and now there are 234234 just like it. I hope to finish it someday, even if it’s just for me."
       },
       "kata": {
         "desc": "TDD kata in Java. Mars Rover problem implemented with clean architecture, JUnit 5, Maven and JaCoCo coverage."
@@ -274,7 +259,6 @@
     "talkLabel": "Talk",
     "talkDesc": "Philology and programming are more alike than you think. A journey between human languages and machine languages, exploring how learning languages and learning to code share the same cognitive foundations.",
     "ctaFull": "Watch the talk",
-    "ctaShort": "Short version",
     "articles": [
       {
         "title": "Tu primera entrevista de diseño de sistemas: guía básica para no llegar en blanco",
@@ -320,28 +304,30 @@
     "items": [
       {
         "title": "Step4ward",
-        "desc": "Community of women in tech. Mentoring, event organisation and visibility of female talent in the industry.",
-        "badge": "Mentor & Organiser",
+        "desc": "Community of women in tech. I take part in the Step4ward community whenever I can, through mentoring and by contributing anything that might be useful.",
+        "badge": "Mentor",
         "linkLabel": "My Step4ward profile ↗"
       },
       {
         "title": "Soprano",
-        "desc": "Code is my daytime language, but music is the language of the soul. I sing soprano in the Diatessaron Choir.",
+        "desc": "Music is a language too: a kind of synchrony, a way to express yourself and connect with people. In the Diatessaron Choir since 2020, and starting a new chapter to close out 2026 in style 🤫🎶.",
         "badge": "Diatessaron Choir",
         "linkLabel": "corodiatessaron.es ↗"
       },
       {
         "title": "Press",
-        "desc": "Interview on Mulleres en Tech about my journey from humanities to programming.",
+        "desc": "Interview on Mulleres en Tech (2024) about my journey from humanities to programming.",
         "badge": "Mulleres en Tech",
         "linkLabel": "Read the interview ↗"
       }
     ]
   },
-  "contact": {
-    "headline": "Let’s <mark class=\"p\">talk</mark>"
-  },
   "footer": {
-    "copy": "© 2026 · made with ♥ and my besties Copilotina & Claudio"
+    "copy": "© 2026 · made with ♥ and my besties Copilotina & Claudio",
+    "play": "Play Ode to Joy",
+    "stop": "Stop the music"
+  },
+  "contact": {
+    "headline": "<mark class=\"v\">I’m all ears</mark>."
   }
 }

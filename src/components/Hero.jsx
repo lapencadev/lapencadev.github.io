@@ -1,5 +1,4 @@
 import { useT } from '../i18n/LanguageContext'
-import cvPdf from '../assets/CV_Raquel-SG.pdf'
 
 // Hero como entrada de diccionario: lema, transcripción, categoría y acepciones numeradas.
 export default function Hero() {
@@ -33,16 +32,12 @@ export default function Hero() {
             </li>
           ))}
         </ol>
-
-        <aside className="margin-note hero-margin">
-          {h.margin.map(([k, v]) => <div key={k}><b>{k}</b> {v}</div>)}
-        </aside>
       </div>
 
       <div className="hero-foot">
         <div className="hero-cta">
           <a href="#contact" className="btn btn-primary">{h.ctaTalk}</a>
-          <a href={cvPdf} target="_blank" rel="noreferrer" className="btn btn-ghost">{h.ctaCV}</a>
+          <a href="https://www.linkedin.com/in/raquelsg91/" target="_blank" rel="noreferrer" className="btn btn-ghost">{h.ctaLinkedIn}</a>
           <a href="https://linktr.ee/lapencadev" target="_blank" rel="noreferrer" className="link hero-links">{h.ctaLinks}</a>
         </div>
       </div>
